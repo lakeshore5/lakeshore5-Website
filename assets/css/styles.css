@@ -242,8 +242,7 @@ body {
     height: 100%;
     background: var(--black);
     position: relative;
-    /* Use clip-path for reliable corner clipping */
-    clip-path: inset(0 round 21px);
+    border-radius: 15px;
     overflow: hidden;
 }
 
@@ -559,17 +558,21 @@ body {
 
 @media screen and (max-width: 768px) {
     .container {
-        padding: 0 0.75rem;
+        padding: 0 0.5rem;
     }
     
     .portfolio-grid {
         gap: 1.5rem;
+        padding: 0 0.5rem;
     }
     
     .build-card {
         margin: 0;
-        width: 100%;
-        max-width: 100%;
+        width: calc(100% - 1rem);
+        max-width: calc(100% - 1rem);
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 60vh;
     }
 }
 
@@ -587,11 +590,36 @@ body {
     }
     
     .container {
-        padding: 0 0.5rem;
+        padding: 0 0.25rem;
     }
     
     .portfolio-grid {
         gap: 1rem;
+        padding: 0 0.25rem;
+    }
+    
+    .build-card {
+        width: calc(100% - 0.5rem);
+        max-width: calc(100% - 0.5rem);
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 50vh;
+    }
+}
+
+/* Mobile landscape orientation fix */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    .build-card {
+        max-height: 35vh;
+        margin-bottom: 0.5rem;
+    }
+    
+    .portfolio-grid {
+        gap: 0.75rem;
+    }
+    
+    .hero-section {
+        min-height: 70vh;
     }
 }
 
