@@ -801,17 +801,28 @@ body {
     }
     
     .timeline-container::before {
-        left: 30px;
+        left: 20px;
+    }
+    
+    .timeline-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 2rem;
     }
     
     .timeline-date {
-        left: 30px;
+        position: static;
         transform: none;
+        margin-bottom: 1rem;
+        margin-left: 0;
+        align-self: flex-start;
     }
     
     .timeline-content {
-        width: calc(100% - 80px);
-        margin-left: 80px !important;
+        width: calc(100% - 40px);
+        margin-left: 40px !important;
+        margin-top: 0;
     }
     
     .achievements-grid {
@@ -832,10 +843,20 @@ body {
         font-size: 2.5rem;
     }
     
+    .timeline-container::before {
+        left: 15px;
+    }
+    
     .timeline-content {
-        width: calc(100% - 60px);
-        margin-left: 60px !important;
+        width: calc(100% - 30px);
+        margin-left: 30px !important;
         padding: 1.5rem;
+    }
+    
+    .timeline-date {
+        margin-left: 0;
+        font-size: 1rem;
+        padding: 0.4rem 0.8rem;
     }
 }
 

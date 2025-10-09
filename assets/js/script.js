@@ -146,8 +146,34 @@ function openBuildModal(buildId) {
     window.currentBuildImages = build.images;
     window.currentImageIndex = 0;
     
-    // Show modal
+    // Show modal first
     modal.style.display = 'block';
+    
+    // Reset scroll position to top for all scrollable elements in modal
+    // Use setTimeout to ensure DOM is updated before scroll reset
+    setTimeout(() => {
+        const modalContent = modal.querySelector('.modal-content');
+        const modalBody = modal.querySelector('.modal-body');
+        const modalInfo = modal.querySelector('.modal-info');
+        
+        // Reset scroll for modal itself
+        modal.scrollTop = 0;
+        
+        // Reset scroll for modal content
+        if (modalContent) {
+            modalContent.scrollTop = 0;
+        }
+        
+        // Reset scroll for modal body
+        if (modalBody) {
+            modalBody.scrollTop = 0;
+        }
+        
+        // Reset scroll for modal info section (this is the main scrolling element)
+        if (modalInfo) {
+            modalInfo.scrollTop = 0;
+        }
+    }, 10);
 }
 
 // Close build modal
