@@ -53,6 +53,16 @@ const buildData = {
             'builds/athion-builds/Aurelios_the_Lost_City/AtlantisTerra.png'
         ]
     },
+    'heliox-station': {
+        title: 'Heliox Station',
+        description: 'A massive orbital research facility suspended in the void of space, Heliox Station represents humanity\'s furthest reach into the cosmos. This ambitious sci-fi build features sleek industrial architecture, advanced docking systems, and cutting-edge research laboratories. The station\'s modular design showcases both functional engineering and aesthetic beauty, with sweeping curves and geometric precision that capture the essence of future space exploration.\n\nBuilt on athion.net, version 1.12.2',
+        images: [
+            'builds/athion-builds/Heliox_Station/SpaceCinematic.png',
+            'builds/athion-builds/Heliox_Station/SpaceBuild.png',
+            'builds/athion-builds/Heliox_Station/SpaceTerra.png',
+            'builds/athion-builds/Heliox_Station/SpaceShip.png'
+        ]
+    },
     'adventus-mortis': {
         title: 'Adventus Mortis',
         description: 'Inspired by the Monument to Cardinal Cinzio Aldobrandini, San Pietro in Vincoli, this tribute to the Angel of Death seamlessly integrates baroque altar designs with large scale organics and plantlife to create a dark, foreboding atmosphere. The harsh contrast of light and dark is reminiscent of chiaroscuro art works.\n\nBuilt in 2024 on BuildersRefuge.',
