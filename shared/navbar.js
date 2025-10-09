@@ -5,14 +5,14 @@ function loadNavbar(activePage) {
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="index.html">
+                <a href="./">
                     <img src="assets/images/Logo.png" alt="lakeshore5 logo" class="nav-logo-img">
                     <span>lakeshore5</span>
                 </a>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link" data-page="portfolio">Portfolio</a>
+                    <a href="./" class="nav-link" data-page="portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a href="about.html" class="nav-link" data-page="about">About</a>
