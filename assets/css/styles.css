@@ -228,7 +228,6 @@ body {
     position: relative;
     width: 100%;
     max-height: 70vh;
-    border-radius: 24px;
     cursor: pointer;
     transition: var(--transition);
     border: 3px solid transparent;
@@ -242,7 +241,6 @@ body {
     height: 100%;
     background: var(--black);
     position: relative;
-    border-radius: 15px;
     overflow: hidden;
 }
 
@@ -287,9 +285,10 @@ body {
     right: 0;
     background: linear-gradient(
         transparent,
-        rgba(0, 0, 0, 0.8)
+        rgba(0, 0, 0, 0.9)
     );
-    padding: 3rem 2rem 2rem;
+    padding: 2rem 2rem 1.5rem;
+    text-align: center;
     transform: translateY(100%);
     opacity: 0;
     transition: var(--transition);
@@ -298,6 +297,10 @@ body {
 .build-card:hover .build-overlay {
     transform: translateY(0);
     opacity: 1;
+    background: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, 0.9)
+    );
 }
 
 .build-title {
@@ -610,16 +613,21 @@ body {
 /* Mobile landscape orientation fix */
 @media screen and (max-height: 500px) and (orientation: landscape) {
     .build-card {
-        max-height: 35vh;
-        margin-bottom: 0.5rem;
+        max-height: 25vh;
+        margin-bottom: 1rem;
     }
     
     .portfolio-grid {
-        gap: 0.75rem;
+        gap: 1rem;
+        padding: 0 1rem;
     }
     
     .hero-section {
-        min-height: 70vh;
+        min-height: 60vh;
+    }
+    
+    .container {
+        padding: 0 1rem;
     }
 }
 
