@@ -610,35 +610,36 @@ body {
     }
 }
 
-/* Mobile landscape orientation fix */
-@media screen and (max-height: 500px) and (orientation: landscape) {
-    .build-card {
-        max-height: 18vh;
-        margin-bottom: 2rem;
-        width: calc(100% - 2rem);
-        margin-left: auto;
-        margin-right: auto;
+/* Mobile landscape orientation fix - specifically targets mobile landscape */
+@media screen and (max-width: 900px) and (max-height: 500px) and (orientation: landscape) {
+    .hero-section {
+        min-height: 40vh;
+        padding: 2rem 0;
     }
     
     .portfolio-grid {
-        gap: 2rem;
-        padding: 1rem;
+        gap: 3rem;
+        padding: 2rem 1rem;
     }
     
-    .hero-section {
-        min-height: 50vh;
+    .build-card {
+        max-height: 15vh;
+        width: calc(100% - 4rem);
+        margin: 0 auto 3rem auto;
+        transform: scale(0.8);
+        transform-origin: center;
+    }
+    
+    .build-card:hover {
+        transform: scale(0.85);
+    }
+    
+    .build-card:hover .build-image {
+        transform: scale(1.05);
     }
     
     .container {
-        padding: 0 1rem;
-    }
-    
-    .build-title {
-        font-size: 1.2rem;
-    }
-    
-    .build-overlay {
-        padding: 1rem 1rem 0.5rem;
+        padding: 0 2rem;
     }
 }
 
