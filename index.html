@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lakeshore5 - Professional Minecraft Builder</title>
+    <meta name="description" content="Professional Minecraft builder with 10+ years experience. Co-owner of Xenos Builds, Athion staff since 2017, worked with Minecraft Marketplace teams.">
+    <meta name="keywords" content="Minecraft, builder, professional, portfolio, Xenos Builds, Athion, Marketplace">
+    <link rel="icon" type="image/png" href="assets/images/Logo.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <div id="navbar-container"></div>
+
+    <!-- Background with gradient overlay -->
+    <div class="background-container">
+        <div class="background-image"></div>
+        <div class="gradient-overlay"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="portfolio-title">Portfolio</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="portfolio-grid">
+            <!-- Aurelios -->
+            <div class="build-card" data-build="aurelios">
+                <div class="image-container">
+                    <img src="builds/athion-builds/Aurelios_the_Lost_City/Atlantis.png" alt="Aurelios the Lost City" class="build-image">
+                    <div class="build-overlay">
+                        <h3 class="build-title">Aurelios</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loriostrond -->
+            <div class="build-card" data-build="loriostrond">
+                <div class="image-container">
+                    <img src="builds/athion-builds/Loriostrond/Loriostrond.png" alt="Loriostrond" class="build-image">
+                    <div class="build-overlay">
+                        <h3 class="build-title">Loriostrond</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Adventus Mortis -->
+            <div class="build-card" data-build="adventus-mortis">
+                <div class="image-container">
+                    <img src="builds/personal-projects/Adventus_Mortis/DeathAltar.png" alt="Adventus Mortis" class="build-image">
+                    <div class="build-overlay">
+                        <h3 class="build-title">Adventus Mortis</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for build details -->
+    <div id="buildModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-images">
+                    <div class="image-carousel">
+                        <img id="modalImage" src="" alt="" class="modal-main-image">
+                        <div class="carousel-controls">
+                            <button class="prev-btn">&lt;</button>
+                            <button class="next-btn">&gt;</button>
+                        </div>
+                    </div>
+                    <div class="image-thumbnails"></div>
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <div id="modalDescription"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script src="shared/navbar.js"></script>
+    <script src="shared/footer.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        // Load navbar and footer
+        document.addEventListener('DOMContentLoaded', function() {
+            loadNavbar('portfolio');
+            loadFooter();
+        });
+    </script>
+</body>
+</html>

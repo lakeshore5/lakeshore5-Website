@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - lakeshore5 | Professional Minecraft Builder</title>
+    <meta name="description" content="Get in touch with lakeshore5 for custom Minecraft builds, collaborations, or professional building services. Contact form and information available.">
+    <link rel="icon" type="image/png" href="assets/images/Logo.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar-container"></div>
+
+    <!-- Background with gradient overlay -->
+    <div class="background-container contact-background">
+        <div class="background-image contact-bg-image"></div>
+        <div class="gradient-overlay"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="portfolio-title">Contact</h1>
+                <p class="hero-subtitle">Ready to bring your vision to life? Let's discuss your next Minecraft project.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-title">Let's Build Together</h2>
+                    <p>Whether you're looking for a custom build, marketplace collaboration, or professional consultation, I'm here to help bring your Minecraft vision to reality.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">�</div>
+                            <div class="contact-details">
+                                <h3>Athion Server</h3>
+                                <p>play.athion.net</p>
+                                <p>Find me in-game for live discussions</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">💼</div>
+                            <div class="contact-details">
+                                <h3>Professional Services</h3>
+                                <p>Custom builds, marketplace projects, team collaborations</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">🎓</div>
+                            <div class="contact-details">
+                                <h3>Build Reviews</h3>
+                                <p>Available on Athion for feedback and guidance</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="availability">
+                        <h3>Availability</h3>
+                        <div class="availability-status">
+                            <span class="status-indicator available"></span>
+                            <span>Currently accepting new projects</span>
+                        </div>
+                        <p>Response time: Within 24-48 hours</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Project Inquiry</h2>
+                    <form action="https://formsubmit.co/lakeshore5mc@gmail.com" method="POST" class="minecraft-form">
+                        <!-- First & Last Name Row -->
+                        <div class="form-row">
+                            <div class="form-group half">
+                                <label for="first"><b>First Name</b> <span class="required">*</span></label>
+                                <input type="text" id="first" name="first" required>
+                            </div>
+                            <div class="form-group half">
+                                <label for="last"><b>Last Name</b> <span class="required">*</span></label>
+                                <input type="text" id="last" name="last" required>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-group">
+                            <label for="email"><b>Email</b> <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <!-- Minecraft Username -->
+                        <div class="form-group">
+                            <label for="minecraft-username"><b>Minecraft Username</b></label>
+                            <input type="text" id="minecraft-username" name="minecraft_username" placeholder="Your IGN">
+                        </div>
+
+                        <!-- Project Type -->
+                        <div class="form-group">
+                            <label><b>Project Type:</b> <span class="required">*</span></label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="project_type" value="Custom Build" required>
+                                    Custom Build (Private Commission)
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="project_type" value="Marketplace Collaboration" required>
+                                    Marketplace Collaboration
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="project_type" value="Team Project" required>
+                                    Team / Group Project
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="project_type" value="Build Review" required>
+                                    Build Review / Consultation
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="project_type" value="Other" required>
+                                    Other
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Budget Range -->
+                        <div class="form-group">
+                            <label for="budget"><b>Budget Range (Optional)</b></label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="Under $100">Under $100</option>
+                                <option value="$100 - $500">$100 - $500</option>
+                                <option value="$500 - $1000">$500 - $1000</option>
+                                <option value="$1000 - $2500">$1000 - $2500</option>
+                                <option value="$2500+">$2500+</option>
+                                <option value="Discuss">Prefer to discuss</option>
+                            </select>
+                        </div>
+
+                        <!-- Project Details -->
+                        <div class="form-group">
+                            <label for="message"><b>Project Details</b> <span class="required">*</span></label>
+                            <textarea id="message" name="message" required 
+                                placeholder="Describe your project: What do you want built? What style/theme? Any specific requirements? Timeline? Reference images or inspiration?"></textarea>
+                        </div>
+
+                        <!-- Hidden fields for FormSubmit -->
+                        <input type="hidden" name="_next" value="https://lakeshore5.com/thanks">
+                        <input type="hidden" name="_subject" value="New Minecraft Build Inquiry">
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="submit-btn">Send Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-overview">
+        <div class="container">
+            <h2 class="section-title">Services Offered</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏰</div>
+                    <h3>Custom Builds</h3>
+                    <p>Unique, tailored structures designed to your specifications. From castles to modern cities, I bring your vision to life.</p>
+                    <ul>
+                        <li>Detailed planning & concepts</li>
+                        <li>Progress updates & revisions</li>
+                        <li>High-quality screenshots</li>
+                        <li>Schematic files included</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🏪</div>
+                    <h3>Marketplace Projects</h3>
+                    <p>Professional-grade maps and content for the Minecraft Marketplace, working with established teams and creators.</p>
+                    <ul>
+                        <li>Commercial-ready quality</li>
+                        <li>Team collaboration experience</li>
+                        <li>Marketplace standards compliance</li>
+                        <li>Proven track record</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🎓</div>
+                    <h3>Build Reviews & Tutorials</h3>
+                    <p>Personalized feedback and educational content to help improve your building skills and techniques.</p>
+                    <ul>
+                        <li>Detailed build analysis</li>
+                        <li>Constructive feedback</li>
+                        <li>Live tutorial sessions</li>
+                        <li>Skill development planning</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3>Consulting Services</h3>
+                    <p>Professional guidance for your Minecraft projects, team management, and building standards.</p>
+                    <ul>
+                        <li>Project planning & strategy</li>
+                        <li>Team coordination</li>
+                        <li>Quality assurance</li>
+                        <li>Technical guidance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What's your typical project timeline?</h3>
+                    <p>Project timelines vary based on complexity and scope. Simple builds might take 1-2 weeks, while complex marketplace projects can take 1-3 months. I always provide realistic timelines during our initial discussion.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you work with teams or solo?</h3>
+                    <p>I work both independently and as part of teams. As co-owner of Xenos Builds, I can scale projects up with additional builders when needed, or work solo for more intimate projects.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What file formats do you provide?</h3>
+                    <p>I typically provide schematic files, world downloads, and high-resolution screenshots. For marketplace projects, I follow specific format requirements as needed.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you offer revisions?</h3>
+                    <p>Yes! I include reasonable revisions in all projects to ensure you're completely satisfied with the final result. Major scope changes would be discussed separately.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can you work within specific themes or styles?</h3>
+                    <p>Absolutely! I have experience with medieval, modern, futuristic, steampunk, organic, and many other architectural styles. I adapt to match your vision.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What about commercial usage rights?</h3>
+                    <p>Commercial usage terms are discussed for each project. For marketplace collaborations, I work within established team agreements. Custom builds typically include full usage rights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+
+    <script src="shared/navbar.js"></script>
+    <script src="shared/footer.js"></script>
+    <script>
+        // Load navbar and set active page - Contact
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Contact page loading navbar...');
+            console.log('Navbar container:', document.getElementById('navbar-container'));
+            if (typeof loadNavbar === 'function') {
+                loadNavbar('contact');
+                console.log('loadNavbar function called');
+            } else {
+                console.error('loadNavbar function not found!');
+            }
+            
+            // Load footer
+            if (typeof loadFooter === 'function') {
+                loadFooter();
+                console.log('loadFooter function called');
+            } else {
+                console.error('loadFooter function not found!');
+            }
+        });
+    </script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
