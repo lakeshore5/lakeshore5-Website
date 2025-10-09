@@ -613,21 +613,32 @@ body {
 /* Mobile landscape orientation fix */
 @media screen and (max-height: 500px) and (orientation: landscape) {
     .build-card {
-        max-height: 25vh;
-        margin-bottom: 1rem;
+        max-height: 18vh;
+        margin-bottom: 2rem;
+        width: calc(100% - 2rem);
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .portfolio-grid {
-        gap: 1rem;
-        padding: 0 1rem;
+        gap: 2rem;
+        padding: 1rem;
     }
     
     .hero-section {
-        min-height: 60vh;
+        min-height: 50vh;
     }
     
     .container {
         padding: 0 1rem;
+    }
+    
+    .build-title {
+        font-size: 1.2rem;
+    }
+    
+    .build-overlay {
+        padding: 1rem 1rem 0.5rem;
     }
 }
 
