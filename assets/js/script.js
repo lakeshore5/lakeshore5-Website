@@ -63,6 +63,16 @@ const buildData = {
             'builds/athion-builds/Heliox_Station/SpaceShip.png'
         ]
     },
+    'yuanhua-pagoda': {
+        title: 'Yuanhua Pagoda',
+        description: 'A magnificent traditional Chinese pagoda that embodies the essence of ancient oriental architecture with meticulous attention to detail. This multi-tiered structure showcases intricate wooden frameworks, elegant curved rooflines, and ornate decorative elements that reflect centuries of architectural tradition. The pagoda stands as a testament to the harmony between natural materials and sophisticated design, featuring traditional landscaping and mythical dragon motifs that enhance its cultural authenticity.\n\nBuilt on the Bakery server, 2024\nPlot size 501x501',
+        images: [
+            'builds/personal-projects/Yuanhua_Pagoda/OrientalCinematic.png',
+            'builds/personal-projects/Yuanhua_Pagoda/OrientalAerial.png',
+            'builds/personal-projects/Yuanhua_Pagoda/OrientalBuild.png',
+            'builds/personal-projects/Yuanhua_Pagoda/OrientalDragon.png'
+        ]
+    },
     'adventus-mortis': {
         title: 'Adventus Mortis',
         description: 'Inspired by the Monument to Cardinal Cinzio Aldobrandini, San Pietro in Vincoli, this tribute to the Angel of Death seamlessly integrates baroque altar designs with large scale organics and plantlife to create a dark, foreboding atmosphere. The harsh contrast of light and dark is reminiscent of chiaroscuro art works.\n\nBuilt in 2024 on BuildersRefuge.',
