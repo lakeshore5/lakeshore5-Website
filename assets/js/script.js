@@ -69,7 +69,6 @@ const buildData = {
         images: [
             'builds/personal-projects/Yuanhua_Pagoda/OrientalCinematic.png',
             'builds/personal-projects/Yuanhua_Pagoda/OrientalAerial.png',
-            'builds/personal-projects/Yuanhua_Pagoda/OrientalBuild.png',
             'builds/personal-projects/Yuanhua_Pagoda/OrientalDragon.png'
         ]
     },

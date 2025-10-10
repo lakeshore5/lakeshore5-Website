@@ -21,9 +21,14 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    color: var(--light-color);
+    color: var(--gold-color);
     background: var(--black);
     overflow-x: hidden;
+}
+
+/* Ensure all text is visible by default */
+p, li, span, div {
+    color: inherit;
 }
 
 /* Container for responsive layout */
@@ -713,7 +718,7 @@ body {
     font-size: 1.2rem;
     line-height: 1.8;
     margin-bottom: 1.5rem;
-    color: var(--light-gray);
+    color: var(--gold-color);
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 0.8s ease forwards;
@@ -819,7 +824,7 @@ body {
 }
 
 .timeline-content p {
-    color: var(--light-gray);
+    color: var(--gold-color);
     line-height: 1.6;
 }
 
@@ -874,7 +879,7 @@ body {
 }
 
 .achievement-card p {
-    color: var(--light-gray);
+    color: var(--gold-color);
     line-height: 1.6;
 }
 
@@ -1053,6 +1058,7 @@ body {
     line-height: 1.7;
     margin-bottom: 30px;
     opacity: 0.9;
+    color: var(--gold-color);
 }
 
 .contact-methods {
@@ -1092,6 +1098,7 @@ body {
     margin: 0;
     opacity: 0.8;
     font-size: 0.95rem;
+    color: var(--gold-color);
 }
 
 .availability {
@@ -1229,6 +1236,7 @@ body {
     transition: var(--transition);
     font-weight: normal;
     margin-bottom: 0;
+    color: var(--gold-color);
 }
 
 .radio-label:hover {
@@ -1519,4 +1527,182 @@ body {
 .social-mention[href*="twitch"]:before {
     content: "📡 ";
     margin-right: 3px;
+}
+
+/* Skills Section */
+.skills {
+    padding: 6rem 0;
+    background: var(--black);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.skill-category h3 {
+    color: var(--gold-color);
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-category li {
+    color: var(--gold-color);
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.skill-category li:before {
+    content: "▸";
+    color: var(--gold-color);
+    position: absolute;
+    left: 0;
+}
+
+/* Philosophy Section */
+.philosophy {
+    padding: 6rem 0;
+    background: var(--black);
+}
+
+.philosophy-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.philosophy h2 {
+    color: var(--gold-color);
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.philosophy blockquote {
+    color: var(--gold-color);
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 2rem 0;
+    padding: 2rem;
+    background: rgba(255, 215, 0, 0.05);
+    border-left: 4px solid var(--gold-color);
+    border-radius: 8px;
+}
+
+.philosophy p {
+    color: var(--gold-color);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+/* Services Overview Section */
+.services-overview {
+    padding: 6rem 0;
+    background: var(--black);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.service-card {
+    background: rgba(255, 215, 0, 0.05);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 215, 0, 0.1);
+    transition: var(--transition);
+}
+
+.service-card:hover {
+    background: rgba(255, 215, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-card h3 {
+    color: var(--gold-color);
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-card p {
+    color: var(--gold-color);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.service-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service-card li {
+    color: var(--gold-color);
+    padding: 0.3rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.service-card li:before {
+    content: "✓";
+    color: var(--gold-color);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 6rem 0;
+    background: var(--black);
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.faq-item {
+    background: rgba(255, 215, 0, 0.05);
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--gold-color);
+    transition: var(--transition);
+}
+
+.faq-item:hover {
+    background: rgba(255, 215, 0, 0.1);
+}
+
+.faq-item h3 {
+    color: var(--gold-color);
+    font-family: 'Cinzel', serif;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.faq-item p {
+    color: var(--gold-color);
+    line-height: 1.6;
 }
