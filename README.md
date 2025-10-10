@@ -1,6 +1,6 @@
 # lakeshore5 Professional Minecraft Builder Website
 
-A professional portfolio website for lakeshore5, showcasing over a decade of Minecraft building expertise, marketplace collaborations, and community contributions.
+A professional portfolio website for lakeshore5, showcasing a decade of Minecraft building expertise, marketplace collaborations, and community contributions.
 
 ## About lakeshore5
 
