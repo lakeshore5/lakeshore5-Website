@@ -38,7 +38,7 @@ const buildData = {
         ]
     },
     'aurelios': {
-        title: 'Aurelios the Lost City',
+        title: 'Aurelios The Lost City',
         description: 'An underwater metropolis that once thrived beneath the waves, now partially reclaimed by the ocean. This ambitious build combines classical architecture with aquatic elements, featuring grand colonnades, sunken plazas, and mysterious ruins. The attention to detail in both the architectural elements and the underwater atmosphere creates a truly immersive experience.\n\nBuilt on athion.net, version 1.12.2\nPlot size 609x609',
         images: [
             'builds/athion-builds/Aurelios_the_Lost_City/Atlantis.png',
@@ -77,6 +77,19 @@ const buildData = {
         description: 'Inspired by the Monument to Cardinal Cinzio Aldobrandini, San Pietro in Vincoli, this tribute to the Angel of Death seamlessly integrates baroque altar designs with large scale organics and plantlife to create a dark, foreboding atmosphere. The harsh contrast of light and dark is reminiscent of chiaroscuro art works.\n\nBuilt in 2024 on BuildersRefuge.',
         images: [
             'builds/personal-projects/Adventus_Mortis/DeathAltar.png'
+        ]
+    },
+    'palais-lumiere': {
+        title: 'Palais Lumière',
+        description: 'An elegant French baroque palace showcasing the grandeur and sophistication of classical European architecture. This magnificent structure features ornate decorative elements and symmetrical facades that embody the opulence of French palatial design. Every detail has been meticulously crafted to capture the essence of aristocratic elegance and architectural refinement.\n\nBuilt in 2020 on BuildersRefuge\nInspired by French baroque architecture',
+        images: [
+            'builds/personal-projects/Palais_Lumière/FrenchFront.png',
+            'builds/personal-projects/Palais_Lumière/FrenchBuild.png',
+            'builds/personal-projects/Palais_Lumière/FrenchGate.png',
+            'builds/personal-projects/Palais_Lumière/FrenchAesthetic.png',
+            'builds/personal-projects/Palais_Lumière/FrenchAerial.png',
+            'builds/personal-projects/Palais_Lumière/FrenchSide.png',
+            'builds/personal-projects/Palais_Lumière/FrenchDetails.png'
         ]
     }
 };

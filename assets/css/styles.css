@@ -282,6 +282,14 @@ p, li, span, div {
     aspect-ratio: 16 / 9; /* 16:9 - standard widescreen */
 }
 
+.build-card[data-build="loriostrond"] {
+    aspect-ratio: 19 / 10; /* 1.9:1 - wide landscape to match row above */
+}
+
+.build-card[data-build="palais-lumiere"] {
+    aspect-ratio: 25 / 18; /* 1.39:1 - matches FrenchFront 3000x2160 dimensions */
+}
+
 .build-card:hover {
     transform: scale(1.02);
     border-color: var(--gold-color);
