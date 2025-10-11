@@ -145,7 +145,7 @@ const buildData = {
     },
     'xenos-castle': {
         title: 'Xenos Castle',
-        description: 'A formidable medieval fortress designed for epic siege warfare and strategic combat. This imposing castle features massive defensive walls, towering battlements, intricate interior chambers, and tactical positioning that creates the perfect battlefield for intense multiplayer encounters. The design balances historical authenticity with gameplay functionality, offering multiple levels of engagement from ground assaults to aerial perspectives.\n\nXenosBuilds project with creeper5777, designed as an interactive castle siege minigame.',
+        description: 'A formidable medieval fortress designed for epic siege warfare and strategic combat. This imposing castle features massive defensive walls, towering battlements, intricate interior chambers, and tactical positioning that creates the perfect battlefield for intense multiplayer encounters. The design balances historical authenticity with gameplay functionality, offering multiple levels of engagement from ground assaults to aerial perspectives.\n\nXenosBuilds project with creeper5777, designed as an interactive castle siege minigame.\nBuilt in one day.',
         images: [
             'builds/xenos-builds/XenosCastle/XenosCastle.png',
             'builds/xenos-builds/XenosCastle/XenosCastleGround.png',
