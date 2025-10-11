@@ -130,6 +130,29 @@ const buildData = {
             'builds/xenos-builds/CMA/CMAPlots.png',
             'builds/xenos-builds/CMA/CMAPVP.png'
         ]
+    },
+    'futurex': {
+        title: 'FutureX',
+        description: 'A cutting-edge futuristic city showcasing advanced technology and sleek architectural design. This ambitious project features towering skyscrapers, high-tech laboratories, defensive bastions, and interconnected urban districts that create a cohesive vision of tomorrow. The build demonstrates innovative use of modern materials and lighting to achieve a truly immersive sci-fi atmosphere with detailed interiors and expansive city planning.\n\nXenosBuilds project with creeper5777, designed as an interactive RPG environment.',
+        images: [
+            'builds/xenos-builds/FutureX/FutureX.png',
+            'builds/xenos-builds/FutureX/FutureXCity.png',
+            'builds/xenos-builds/FutureX/FutureXLab.png',
+            'builds/xenos-builds/FutureX/FutureXClose.png',
+            'builds/xenos-builds/FutureX/FutureXAerial.png',
+            'builds/xenos-builds/FutureX/FutureXBastion.png'
+        ]
+    },
+    'xenos-castle': {
+        title: 'Xenos Castle',
+        description: 'A formidable medieval fortress designed for epic siege warfare and strategic combat. This imposing castle features massive defensive walls, towering battlements, intricate interior chambers, and tactical positioning that creates the perfect battlefield for intense multiplayer encounters. The design balances historical authenticity with gameplay functionality, offering multiple levels of engagement from ground assaults to aerial perspectives.\n\nXenosBuilds project with creeper5777, designed as an interactive castle siege minigame.',
+        images: [
+            'builds/xenos-builds/XenosCastle/XenosCastle.png',
+            'builds/xenos-builds/XenosCastle/XenosCastleGround.png',
+            'builds/xenos-builds/XenosCastle/XenosCastleInside.png',
+            'builds/xenos-builds/XenosCastle/XenosCastleAerial.png',
+            'builds/xenos-builds/XenosCastle/XenosCastleOut.png'
+        ]
     }
 };
 
