@@ -241,11 +241,19 @@ img {
 
 .portfolio-row {
     display: flex;
-    height: 350px;
+    height: 400px;
     gap: 1.5rem;
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+/* Larger images on desktop */
+@media screen and (min-width: 1200px) {
+    .portfolio-row {
+        height: 450px;
+        gap: 2rem;
+    }
 }
 
 /* Build Cards */
