@@ -1,17 +1,110 @@
+# Comprehensive CORS headers for ChatGPT and AI system embedding
+# Covers all image formats and paths in the portfolio
+
+# Global headers for all files
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Cache-Control"
+    Cache-Control = "public, max-age=31536000"
+
+# Specific headers for PNG images
 [[headers]]
   for = "*.png"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-    Access-Control-Allow-Methods = "GET, OPTIONS"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Cache-Control, User-Agent, Referer"
+    Content-Type = "image/png"
+    Cache-Control = "public, max-age=31536000"
     
+# Specific headers for JPG images
 [[headers]]
   for = "*.jpg"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-    Access-Control-Allow-Methods = "GET, OPTIONS"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Cache-Control, User-Agent, Referer"
+    Content-Type = "image/jpeg"
+    Cache-Control = "public, max-age=31536000"
     
+# Specific headers for JPEG images
 [[headers]]
   for = "*.jpeg"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-    Access-Control-Allow-Methods = "GET, OPTIONS"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Cache-Control, User-Agent, Referer"
+    Content-Type = "image/jpeg"
+    Cache-Control = "public, max-age=31536000"
+
+# Specific headers for GIF images
+[[headers]]
+  for = "*.gif"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Cache-Control, User-Agent, Referer"
+    Content-Type = "image/gif"
+    Cache-Control = "public, max-age=31536000"
+
+# Specific headers for SVG images
+[[headers]]
+  for = "*.svg"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Cache-Control, User-Agent, Referer"
+    Content-Type = "image/svg+xml"
+    Cache-Control = "public, max-age=31536000"
+
+# Specific headers for WebP images
+[[headers]]
+  for = "*.webp"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Cache-Control, User-Agent, Referer"
+    Content-Type = "image/webp"
+    Cache-Control = "public, max-age=31536000"
+
+# Specific headers for build directory images
+[[headers]]
+  for = "/builds/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Cache-Control, User-Agent, Referer, Origin"
+    X-Frame-Options = "ALLOWALL"
+    Referrer-Policy = "no-referrer-when-downgrade"
+
+# Specific headers for embed gallery
+[[headers]]
+  for = "/embed-gallery.html"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Cache-Control, User-Agent, Referer, Origin"
+    X-Frame-Options = "ALLOWALL"
+    Content-Type = "text/html; charset=utf-8"
+
+# Headers for favicon and meta files
+[[headers]]
+  for = "/favicon.ico"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/android-chrome-*.png"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/apple-touch-icon.png"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=31536000"

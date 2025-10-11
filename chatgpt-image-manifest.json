@@ -1,0 +1,114 @@
+{
+  "manifest_version": "1.0",
+  "title": "lakeshore5 - ChatGPT Embeddable Image Manifest",
+  "description": "Direct URLs for all embeddable images in lakeshore5's Minecraft portfolio",
+  "license": "CC BY 4.0",
+  "attribution": "lakeshore5 - Professional Minecraft Builder",
+  "base_url": "https://lakeshore5.github.io/lakeshore5-Website/",
+  "embed_gallery_url": "https://lakeshore5.github.io/lakeshore5-Website/embed-gallery.html",
+  "total_images": 77,
+  "last_updated": "2025-10-11",
+  "images": [
+    {
+      "project": "Loriostrond",
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNew.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewAerial.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewTerra.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewSide.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewRear.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewCliffs.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewTerraSide.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewForest.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewGarden.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewTerraDetails.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/2025-09-28_03.45.38.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/2025-09-28_03.50.43.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/F38A1212-357A-49DC-9B6B-49E8E30EC118.jpeg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/DE517882-5A17-4025-B7B6-D0A90256E342.jpeg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/A54345AB-9C23-4922-B909-1F3A203B0E91.jpeg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/54A2F9D5-EB08-45A1-A5A6-A3CDE6DE13D2.jpeg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/6BDBA87F-774B-4C79-A649-5166F6076A0E.jpeg"
+      ]
+    },
+    {
+      "project": "Aurelios",
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Aurelios_the_Lost_City/Atlantis.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Aurelios_the_Lost_City/AtlantisAerial.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Aurelios_the_Lost_City/AtlantisCloseUp.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Aurelios_the_Lost_City/AtlantisSide.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Aurelios_the_Lost_City/AtlantisTerra.png"
+      ]
+    },
+    {
+      "project": "Heliox Station",
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceBuild.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceAerial.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceCinematic.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceMap.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceShip.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceTerra.png"
+      ]
+    },
+    {
+      "project": "Xenos Castle",
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Xenos_Castle/Castle.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Xenos_Castle/CastleAerial.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Xenos_Castle/CastleCloseUp.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Xenos_Castle/CastleRear.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Xenos_Castle/CastleSide.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Xenos_Castle/CastleTerra.png"
+      ]
+    },
+    {
+      "project": "CMA Build",
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_121915_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_121928_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_121936_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_121946_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_121954_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122002_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122011_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122026_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122035_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122044_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122058_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122112_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122125_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122135_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122141_Minecraft.jpg",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122153_Minecraft.jpg"
+      ]
+    },
+    {
+      "project": "Personal Builds",
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/AegisLegion/AegisLegion.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/AegisLegion/AegisLegionAerial.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/AegisLegion/AegisLegionCloseUp.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/AegisLegion/AegisLegionSide.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/AegisLegion/AegisLegionTerra.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Spire/SpireBuild.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Spire/SpireAerial.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Spire/SpireCloseUp.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Spire/SpireSide.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Spire/SpireTerra.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Tower/TowerBuild.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Tower/TowerAerial.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Tower/TowerCloseUp.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Tower/TowerSide.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Tower/TowerTerra.png"
+      ]
+    }
+  ],
+  "usage_instructions": {
+    "for_chatgpt": "You can embed any image URL directly from this manifest. All images are licensed under CC BY 4.0 and require attribution to 'lakeshore5'.",
+    "for_developers": "Use the embed_gallery_url for the full interactive gallery, or reference individual image URLs from this manifest.",
+    "cors_enabled": true,
+    "embedding_allowed": true
+  }
+}
