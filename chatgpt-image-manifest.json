@@ -105,9 +105,20 @@
       ]
     }
   ],
+  "cors_friendly_backups": {
+    "description": "Alternative URLs for images that may have CORS restrictions",
+    "base_url": "https://lakeshore5.github.io/lakeshore5-Website/cors-friendly-images/",
+    "images": [
+      "https://lakeshore5.github.io/lakeshore5-Website/cors-friendly-images/loriostrond-main.png",
+      "https://lakeshore5.github.io/lakeshore5-Website/cors-friendly-images/loriostrond-aerial.png",
+      "https://lakeshore5.github.io/lakeshore5-Website/cors-friendly-images/aurelios-main.png",
+      "https://lakeshore5.github.io/lakeshore5-Website/cors-friendly-images/aurelios-aerial.png"
+    ]
+  },
   "usage_instructions": {
-    "for_chatgpt": "You can embed any image URL directly from this manifest. All images are licensed under CC BY 4.0 and require attribution to 'lakeshore5'.",
+    "for_chatgpt": "You can embed any image URL directly from this manifest. All images are licensed under CC BY 4.0 and require attribution to 'lakeshore5'. If an image fails to embed, try the cors_friendly_backups URLs.",
     "for_developers": "Use the embed_gallery_url for the full interactive gallery, or reference individual image URLs from this manifest.",
+    "cors_troubleshooting": "If certain images don't embed, use the cors_friendly_backups directory which has maximum compatibility headers.",
     "cors_enabled": true,
     "embedding_allowed": true
   }
