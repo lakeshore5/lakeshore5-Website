@@ -1,5 +1,12 @@
 # Enable clean URLs and proper redirects for lakeshore5 website
 
+# Enable CORS for images to allow embedding by AI systems
+<FilesMatch "\.(jpg|jpeg|png|gif|svg|webp)$">
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type"
+</FilesMatch>
+
 # Set default page
 DirectoryIndex index.html
 
