@@ -237,6 +237,8 @@ img {
     gap: 2rem;
     margin: 0 auto;
     max-width: 1400px;
+    padding: 0 2rem;
+    overflow: hidden; /* Prevent any overflow */
 }
 
 .portfolio-row {
@@ -246,6 +248,23 @@ img {
     align-items: center;
     justify-content: center;
     width: 100%;
+    max-width: 100%; /* Ensure it never exceeds container */
+    box-sizing: border-box;
+}
+
+/* Responsive sizing for different desktop sizes */
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+    .portfolio-grid {
+        padding: 0 1.5rem;
+    }
+    
+    .portfolio-row {
+        gap: 1rem;
+    }
+    
+    .build-card {
+        max-width: calc(50% - 0.5rem);
+    }
 }
 
 /* Larger images on desktop */
@@ -253,6 +272,21 @@ img {
     .portfolio-row {
         height: 450px;
         gap: 2rem;
+    }
+    
+    .build-card {
+        max-width: calc(50% - 1rem);
+    }
+}
+
+/* Extra large screens - prevent excessive stretching */
+@media screen and (min-width: 1600px) {
+    .portfolio-grid {
+        max-width: 1600px;
+    }
+    
+    .build-card {
+        max-width: 600px; /* Absolute max width for readability */
     }
 }
 
@@ -268,7 +302,9 @@ img {
     background: transparent;
     padding: 0;
     display: block;
-    flex-shrink: 0;
+    flex-shrink: 1; /* Allow shrinking to fit container */
+    max-width: calc(50% - 0.75rem); /* Ensure two-card rows never exceed container */
+    min-width: 200px; /* Minimum size to maintain readability */
 }
 
 .build-card .image-container {
