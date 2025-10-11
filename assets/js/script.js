@@ -97,7 +97,7 @@ const buildData = {
     },
     'christmas-build-battle': {
         title: 'Christmas 2231',
-        description: 'A collaborative futuristic Christmas wonderland created during an intense build battle competition. Partnering with creeper5777, we challenged ourselves to reimagine Christmas traditions in the year 2231, blending festive cheer with cutting-edge sci-fi architecture. This ambitious project showcases a complete space-age Christmas village featuring advanced structures, floating islands, and innovative holiday designs. Built under intense time pressure in under a week, this build demonstrates rapid creative execution while maintaining exceptional attention to detail and thematic consistency.\n\nBuilt in Minecraft 1.12.2 as a 2-person collaborative build battle\nCompleted in under one week',
+        description: 'A collaborative futuristic Christmas wonderland that reimagines holiday traditions in the year 2231. Partnering with creeper5777, we blended festive cheer with cutting-edge sci-fi architecture to create a complete space-age Christmas village. The project features advanced structures, floating islands, and innovative holiday designs that demonstrate rapid creative execution while maintaining exceptional attention to detail and thematic consistency.\n\nBuilt in Minecraft 1.12.2 as a 2-person collaborative build battle\nCompleted in under one week',
         images: [
             'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmas.png',
             'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasCinematic.png',
@@ -112,6 +112,23 @@ const buildData = {
             'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasShip.png',
             'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasIslands.png',
             'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasBot.png'
+        ]
+    },
+    'cma': {
+        title: 'CMA NFT World',
+        description: 'An expansive and immersive Minecraft world showcasing diverse landscapes with multiple biomes, settlements, and architectural styles seamlessly integrated into a cohesive design. This comprehensive project includes everything from grand palaces and bustling villages to serene lakes and dramatic terraforming, creating a complete virtual ecosystem ready for exploration and interaction.\n\nCommissioned NFT Worlds project for CMA, built with creeper5777 (XenosBuilds).',
+        images: [
+            'builds/xenos-builds/CMA/CMACinematic.png',
+            'builds/xenos-builds/CMA/CMAImmersive.png',
+            'builds/xenos-builds/CMA/CMAAerial.png',
+            'builds/xenos-builds/CMA/CMASide.png',
+            'builds/xenos-builds/CMA/CMAClose.png',
+            'builds/xenos-builds/CMA/CMATerra.png',
+            'builds/xenos-builds/CMA/CMAPalace.png',
+            'builds/xenos-builds/CMA/CMALake.png',
+            'builds/xenos-builds/CMA/CMAVillage.png',
+            'builds/xenos-builds/CMA/CMAPlots.png',
+            'builds/xenos-builds/CMA/CMAPVP.png'
         ]
     }
 };

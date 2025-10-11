@@ -312,6 +312,10 @@ img {
     aspect-ratio: 16 / 9; /* 16:9 - standard widescreen matches 3840x2160 */
 }
 
+.build-card[data-build="cma"] {
+    aspect-ratio: 2800 / 2160; /* 1.296:1 - matches CMACinematic 2800x2160 dimensions */
+}
+
 .build-card:hover {
     transform: scale(1.02);
     border-color: var(--gold-color);
