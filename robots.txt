@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Allow access to all images
+Allow: /builds/
+Allow: /assets/
+
+# Sitemap location (update when available)
+# Sitemap: https://lakeshore5.com/sitemap.xml
+
+# Crawl-delay for respectful bots
+Crawl-delay: 1

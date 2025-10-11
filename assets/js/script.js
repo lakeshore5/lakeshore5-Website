@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize image carousel
     initImageCarousel();
+    
+    // Initialize image zoom functionality
+    initImageZoom();
 });
 
 // Build data with descriptions and image lists
@@ -90,6 +93,25 @@ const buildData = {
             'builds/personal-projects/Palais_Lumière/FrenchAerial.png',
             'builds/personal-projects/Palais_Lumière/FrenchSide.png',
             'builds/personal-projects/Palais_Lumière/FrenchDetails.png'
+        ]
+    },
+    'christmas-build-battle': {
+        title: 'Christmas 2231',
+        description: 'A collaborative futuristic Christmas wonderland created during an intense build battle competition. Partnering with creeper5777, we challenged ourselves to reimagine Christmas traditions in the year 2231, blending festive cheer with cutting-edge sci-fi architecture. This ambitious project showcases a complete space-age Christmas village featuring advanced structures, floating islands, and innovative holiday designs. Built under intense time pressure in under a week, this build demonstrates rapid creative execution while maintaining exceptional attention to detail and thematic consistency.\n\nBuilt in Minecraft 1.12.2 as a 2-person collaborative build battle\nCompleted in under one week',
+        images: [
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmas.png',
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasCinematic.png',
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasAngle.png',
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasBack.png',
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasLow.png',
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasTop.png',
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasFacade.png',
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasDetail.png',
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasInterior.png',
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasCandy.png',
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasShip.png',
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasIslands.png',
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasBot.png'
         ]
     }
 };
@@ -286,6 +308,124 @@ function initImageCarousel() {
             nextBtn.click();
         }
     });
+}
+
+// Initialize image zoom functionality
+function initImageZoom() {
+    let currentZoom = 1;
+    let currentPanX = 0;
+    let currentPanY = 0;
+    
+    document.addEventListener('wheel', function(e) {
+        const modal = document.getElementById('buildModal');
+        const modalImage = document.getElementById('modalImage');
+        
+        // Only zoom if modal is open and shift key is held
+        if (!modal || modal.style.display !== 'block' || !e.shiftKey || !modalImage) {
+            return;
+        }
+        
+        e.preventDefault();
+        
+        const zoomSpeed = 0.1;
+        const minZoom = 1;
+        const maxZoom = 4;
+        
+        // Calculate new zoom level
+        if (e.deltaY < 0) {
+            // Zoom in
+            currentZoom = Math.min(currentZoom + zoomSpeed, maxZoom);
+        } else {
+            // Zoom out
+            currentZoom = Math.max(currentZoom - zoomSpeed, minZoom);
+        }
+        
+        // Reset pan when zooming back to 1x
+        if (currentZoom === minZoom) {
+            currentPanX = 0;
+            currentPanY = 0;
+        }
+        
+        // Apply transform
+        modalImage.style.transform = `scale(${currentZoom}) translate(${currentPanX}px, ${currentPanY}px)`;
+        modalImage.style.cursor = currentZoom > 1 ? 'move' : 'default';
+    });
+    
+    // Pan functionality when zoomed
+    let isPanning = false;
+    let lastPanX = 0;
+    let lastPanY = 0;
+    
+    document.addEventListener('mousedown', function(e) {
+        const modal = document.getElementById('buildModal');
+        const modalImage = document.getElementById('modalImage');
+        
+        if (!modal || modal.style.display !== 'block' || e.target !== modalImage || currentZoom <= 1) {
+            return;
+        }
+        
+        isPanning = true;
+        lastPanX = e.clientX;
+        lastPanY = e.clientY;
+        modalImage.style.cursor = 'grabbing';
+        e.preventDefault();
+    });
+    
+    document.addEventListener('mousemove', function(e) {
+        if (!isPanning) return;
+        
+        const modalImage = document.getElementById('modalImage');
+        if (!modalImage) return;
+        
+        const deltaX = e.clientX - lastPanX;
+        const deltaY = e.clientY - lastPanY;
+        
+        currentPanX += deltaX / currentZoom;
+        currentPanY += deltaY / currentZoom;
+        
+        modalImage.style.transform = `scale(${currentZoom}) translate(${currentPanX}px, ${currentPanY}px)`;
+        
+        lastPanX = e.clientX;
+        lastPanY = e.clientY;
+    });
+    
+    document.addEventListener('mouseup', function() {
+        if (isPanning) {
+            isPanning = false;
+            const modalImage = document.getElementById('modalImage');
+            if (modalImage && currentZoom > 1) {
+                modalImage.style.cursor = 'move';
+            }
+        }
+    });
+    
+    // Reset zoom when modal closes or image changes
+    const originalCloseBuildModal = window.closeBuildModal;
+    window.closeBuildModal = function() {
+        currentZoom = 1;
+        currentPanX = 0;
+        currentPanY = 0;
+        const modalImage = document.getElementById('modalImage');
+        if (modalImage) {
+            modalImage.style.transform = 'scale(1) translate(0px, 0px)';
+            modalImage.style.cursor = 'default';
+        }
+        if (originalCloseBuildModal) originalCloseBuildModal();
+    };
+    
+    // Reset zoom when changing images
+    const originalShowImage = window.showImage;
+    window.showImage = function(index) {
+        currentZoom = 1;
+        currentPanX = 0;
+        currentPanY = 0;
+        const modalImage = document.getElementById('modalImage');
+        if (modalImage) {
+            modalImage.style.transform = 'scale(1) translate(0px, 0px)';
+            modalImage.style.cursor = 'default';
+        }
+        if (originalShowImage) originalShowImage(index);
+    };
 }
 
 // Add smooth scrolling for any anchor links
