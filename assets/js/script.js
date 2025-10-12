@@ -23,14 +23,14 @@ const buildData = {
         images: [
             'builds/athion-builds/Loriostrond/LoriostrondNew.png',
             'builds/athion-builds/Loriostrond/LoriostrondNewAerial.png',
-            'builds/athion-builds/Loriostrond/LoriostrondNewTerra.png',
-            'builds/athion-builds/Loriostrond/LoriostrondNewSide.png',
-            'builds/athion-builds/Loriostrond/LoriostrondNewRear.png',
-            'builds/athion-builds/Loriostrond/LoriostrondNewCliffs.png',
-            'builds/athion-builds/Loriostrond/LoriostrondNewTerraSide.png',
-            'builds/athion-builds/Loriostrond/LoriostrondNewForest.png',
+            'builds/athion-builds/Loriostrond/LoriostrondNewTerra.jpeg',
+            'builds/athion-builds/Loriostrond/LoriostrondNewSide.jpeg',
+            'builds/athion-builds/Loriostrond/LoriostrondNewRear.jpeg',
+            'builds/athion-builds/Loriostrond/LoriostrondNewCliffs.jpeg',
+            'builds/athion-builds/Loriostrond/LoriostrondNewTerraSide.jpeg',
+            'builds/athion-builds/Loriostrond/LoriostrondNewForest.jpeg',
             'builds/athion-builds/Loriostrond/LoriostrondNewGarden.png',
-            'builds/athion-builds/Loriostrond/LoriostrondNewTerraDetails.png',
+            'builds/athion-builds/Loriostrond/LoriostrondNewTerraDetails.jpeg',
             'builds/athion-builds/Loriostrond/2025-09-28_03.45.38.png',
             'builds/athion-builds/Loriostrond/2025-09-28_03.50.43.png',
             'builds/athion-builds/Loriostrond/F38A1212-357A-49DC-9B6B-49E8E30EC118.jpeg',
@@ -63,7 +63,9 @@ const buildData = {
             'builds/athion-builds/Heliox_Station/SpaceCinematic.png',
             'builds/athion-builds/Heliox_Station/SpaceBuild.png',
             'builds/athion-builds/Heliox_Station/SpaceTerra.png',
-            'builds/athion-builds/Heliox_Station/SpaceShip.png'
+            'builds/athion-builds/Heliox_Station/SpaceShip.png',
+            'builds/athion-builds/Heliox_Station/SpaceAerial.jpeg',
+            'builds/athion-builds/Heliox_Station/SpaceMap.jpeg'
         ]
     },
     'yuanhua-pagoda': {
@@ -71,8 +73,9 @@ const buildData = {
         description: 'A magnificent traditional Chinese pagoda that embodies the essence of ancient oriental architecture with meticulous attention to detail. This multi-tiered structure showcases intricate wooden frameworks, elegant curved rooflines, and ornate decorative elements that reflect centuries of architectural tradition. The pagoda stands as a testament to the harmony between natural materials and sophisticated design, featuring traditional landscaping and mythical dragon motifs that enhance its cultural authenticity.\n\nBuilt on the Bakery server, 2024\nPlot size 501x501',
         images: [
             'builds/personal-projects/Yuanhua_Pagoda/OrientalCinematic.png',
-            'builds/personal-projects/Yuanhua_Pagoda/OrientalAerial.png',
-            'builds/personal-projects/Yuanhua_Pagoda/OrientalDragon.png'
+            'builds/personal-projects/Yuanhua_Pagoda/OrientalAerial.jpeg',
+            'builds/personal-projects/Yuanhua_Pagoda/OrientalDragon.png',
+            'builds/personal-projects/Yuanhua_Pagoda/OrientalBuild.jpeg'
         ]
     },
     'adventus-mortis': {
@@ -86,13 +89,13 @@ const buildData = {
         title: 'Palais Lumière',
         description: 'An elegant French baroque palace showcasing the grandeur and sophistication of classical European architecture. This magnificent structure features ornate decorative elements and symmetrical facades that embody the opulence of French palatial design. Every detail has been meticulously crafted to capture the essence of aristocratic elegance and architectural refinement.\n\nBuilt in 2020 on BuildersRefuge\nInspired by French baroque architecture',
         images: [
-            'builds/personal-projects/Palais_Lumière/FrenchFront.png',
-            'builds/personal-projects/Palais_Lumière/FrenchBuild.png',
-            'builds/personal-projects/Palais_Lumière/FrenchGate.png',
-            'builds/personal-projects/Palais_Lumière/FrenchAesthetic.png',
-            'builds/personal-projects/Palais_Lumière/FrenchAerial.png',
-            'builds/personal-projects/Palais_Lumière/FrenchSide.png',
-            'builds/personal-projects/Palais_Lumière/FrenchDetails.png'
+            'builds/personal-projects/Palais_Lumière/LumCard.jpeg',
+            'builds/personal-projects/Palais_Lumière/LumFront.jpeg',
+            'builds/personal-projects/Palais_Lumière/LumAngle.jpeg',
+            'builds/personal-projects/Palais_Lumière/LumArch.jpeg',
+            'builds/personal-projects/Palais_Lumière/LumFount.jpeg',
+            'builds/personal-projects/Palais_Lumière/LumSide.jpeg',
+            'builds/personal-projects/Palais_Lumière/LumAerial.jpeg'
         ]
     },
     'christmas-build-battle': {
@@ -111,7 +114,8 @@ const buildData = {
             'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasCandy.png',
             'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasShip.png',
             'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasIslands.png',
-            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasBot.png'
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasBot.png',
+            'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasVillage.jpeg'
         ]
     },
     'cma': {
@@ -124,11 +128,11 @@ const buildData = {
             'builds/xenos-builds/CMA/CMASide.png',
             'builds/xenos-builds/CMA/CMAClose.png',
             'builds/xenos-builds/CMA/CMATerra.png',
-            'builds/xenos-builds/CMA/CMAPalace.png',
-            'builds/xenos-builds/CMA/CMALake.png',
-            'builds/xenos-builds/CMA/CMAVillage.png',
-            'builds/xenos-builds/CMA/CMAPlots.png',
-            'builds/xenos-builds/CMA/CMAPVP.png'
+            'builds/xenos-builds/CMA/CMAPalace.jpeg',
+            'builds/xenos-builds/CMA/CMALake.jpeg',
+            'builds/xenos-builds/CMA/CMAVillage.jpeg',
+            'builds/xenos-builds/CMA/CMAPlots.jpeg',
+            'builds/xenos-builds/CMA/CMAPVP.jpeg'
         ]
     },
     'futurex': {
@@ -158,13 +162,13 @@ const buildData = {
         title: 'Dragon Point Castle',
         description: 'A magnificent dragon-themed castle that combines medieval fortress architecture with fantastical dragon motifs. This impressive structure features towering spires, intricate stonework, and dramatic dragon sculptures integrated into the castle\'s design. The build showcases both defensive capabilities and mythical grandeur, creating a perfect balance between functionality and fantasy aesthetics.\n\nBuilt as a collaboration with creeper5777, alaiwe, and mengzach.',
         images: [
-            'builds/xenos-builds/DragonPoint/DragonPoint.png',
+            'builds/xenos-builds/DragonPoint/DragonPoint.jpeg',
             'builds/xenos-builds/DragonPoint/DragonPointSide.png',
             'builds/xenos-builds/DragonPoint/DragonPointBack.png',
-            'builds/xenos-builds/DragonPoint/DragonPointDragon.png',
+            'builds/xenos-builds/DragonPoint/DragonPointDragon.jpeg',
             'builds/xenos-builds/DragonPoint/DragonPointVillage.png',
-            'builds/xenos-builds/DragonPoint/DragonPointGround.png',
-            'builds/xenos-builds/DragonPoint/DragonPointAerial.png'
+            'builds/xenos-builds/DragonPoint/DragonPointGround.jpeg',
+            'builds/xenos-builds/DragonPoint/DragonPointAerial.jpeg'
         ]
     },
     'royal-palace': {
@@ -191,12 +195,12 @@ const buildData = {
         title: 'Sunset Isle',
         description: 'A serene tropical paradise that captures the tranquil beauty of an island getaway at golden hour. This charming build features pristine beaches, lush vegetation, and carefully designed pathways that invite exploration. The warm lighting and natural terrain create a peaceful atmosphere perfect for relaxation and contemplation.\n\nBuilt for fun in one day.',
         images: [
-            'builds/personal-projects/SunsetIsle/SunsetIsle.png',
-            'builds/personal-projects/SunsetIsle/SunsetIsleBack.png',
-            'builds/personal-projects/SunsetIsle/SunsetIsleSide.png',
-            'builds/personal-projects/SunsetIsle/SunsetIsleTerra.png',
-            'builds/personal-projects/SunsetIsle/SunsetIslePath.png',
-            'builds/personal-projects/SunsetIsle/SunsetIsleAerial.png'
+            'builds/personal-projects/SunsetIsle/FrontSS.jpeg',
+            'builds/personal-projects/SunsetIsle/SideSS.jpeg',
+            'builds/personal-projects/SunsetIsle/BackSS.jpeg',
+            'builds/personal-projects/SunsetIsle/TerraSS.jpeg',
+            'builds/personal-projects/SunsetIsle/PathSS.jpeg',
+            'builds/personal-projects/SunsetIsle/AerialSS.jpeg'
         ]
     }
 };
