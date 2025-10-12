@@ -1,0 +1,115 @@
+{
+  "manifest_version": "2.0",
+  "title": "lakeshore5 - VERIFIED ChatGPT Embeddable Images",
+  "description": "Only verified working URLs for ChatGPT embedding - all tested for 200 responses",
+  "license": "CC BY 4.0",
+  "attribution": "lakeshore5 - Professional Minecraft Builder",
+  "base_url": "https://lakeshore5.github.io/lakeshore5-Website/",
+  "embed_gallery_url": "https://lakeshore5.github.io/lakeshore5-Website/embed-gallery.html",
+  "last_updated": "2025-10-11",
+  "note": "These URLs match the actual file structure and avoid 400 errors",
+  "verified_working_images": [
+    {
+      "project": "Heliox Station",
+      "status": "✅ WORKING",
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceBuild.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceAerial.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceCinematic.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceMap.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceShip.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceTerra.png"
+      ]
+    },
+    {
+      "project": "Xenos Castle",
+      "status": "✅ WORKING", 
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/XenosCastle/XenosCastle.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/XenosCastle/XenosCastleGround.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/XenosCastle/XenosCastleInside.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/XenosCastle/XenosCastleAerial.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/XenosCastle/XenosCastleOut.png"
+      ]
+    },
+    {
+      "project": "FutureX",
+      "status": "✅ WORKING",
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/FutureX/FutureX.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/FutureX/FutureXAerial.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/FutureX/FutureXCity.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/FutureX/FutureXClose.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/FutureX/FutureXBastion.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/FutureX/FutureXLab.png"
+      ]
+    },
+    {
+      "project": "CMA NFT World",
+      "status": "✅ WORKING",
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/CMA/CMACinematic.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/CMA/CMAAerial.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/CMA/CMAClose.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/CMA/CMALake.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/CMA/CMAVillage.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/CMA/CMAImmersive.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/CMA/CMAPVP.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/CMA/CMATerra.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/CMA/CMASide.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/CMA/CMAPlots.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/CMA/CMAPalace.png"
+      ]
+    },
+    {
+      "project": "Futuristic Christmas BuildBattle",
+      "status": "✅ WORKING",
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmas.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasCinematic.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasTop.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasFacade.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasInterior.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasVillage.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasDetail.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasAngle.png"
+      ]
+    },
+    {
+      "project": "Yuanhua Pagoda",
+      "status": "✅ WORKING",
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Yuanhua_Pagoda/OrientalCinematic.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Yuanhua_Pagoda/OrientalBuild.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Yuanhua_Pagoda/OrientalAerial.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Yuanhua_Pagoda/OrientalDragon.png"
+      ]
+    },
+    {
+      "project": "Adventus Mortis",
+      "status": "✅ WORKING",
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Adventus_Mortis/DeathAltar.png"
+      ]
+    },
+    {
+      "project": "Palais Lumière (ASCII-safe)",
+      "status": "✅ WORKING - Fixed Unicode",
+      "urls": [
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Palais_Lumiere/FrenchFront.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Palais_Lumiere/FrenchBuild.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Palais_Lumiere/FrenchAerial.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Palais_Lumiere/FrenchSide.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Palais_Lumiere/FrenchGate.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Palais_Lumiere/FrenchDetails.png",
+        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Palais_Lumiere/FrenchAesthetic.png"
+      ]
+    }
+  ],
+  "problematic_urls_fixed": {
+    "loriostrond": "Files exist but may have CORS issues - working on server-side fix",
+    "aurelios": "Files exist but may have CORS issues - working on server-side fix",
+    "unicode_paths": "Fixed with ASCII symlinks - Palais_Lumière → Palais_Lumiere"
+  },
+  "chatgpt_instructions": "Use any URL from 'verified_working_images' - these should all return 200 and embed successfully"
+}
