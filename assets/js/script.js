@@ -179,6 +179,25 @@ const buildData = {
             'builds/marketplace-projects/NitricPalace/NitricPalaceAerial.png',
             'builds/marketplace-projects/NitricPalace/NitricPalaceInterior.png'
         ]
+    },
+    'skuxxverse': {
+        title: 'SkuxxVerse',
+        description: 'An expansive virtual world showcasing diverse environments and immersive gameplay experiences. This comprehensive project demonstrates advanced world-building techniques and creative design solutions that push the boundaries of what\'s possible in Minecraft. The build features multiple biomes, interactive elements, and carefully crafted landscapes that create a truly engaging virtual universe.\n\nNFT Worlds commission for XenosBuilds with creeper5777 and Kimbert.',
+        images: [
+            'builds/xenos-builds/SkuxxVerse/SkuxxVerse.JPG'
+        ]
+    },
+    'sunset-isle': {
+        title: 'Sunset Isle',
+        description: 'A serene tropical paradise that captures the tranquil beauty of an island getaway at golden hour. This charming build features pristine beaches, lush vegetation, and carefully designed pathways that invite exploration. The warm lighting and natural terrain create a peaceful atmosphere perfect for relaxation and contemplation.\n\nBuilt for fun in one day.',
+        images: [
+            'builds/personal-projects/SunsetIsle/SunsetIsle.png',
+            'builds/personal-projects/SunsetIsle/SunsetIsleBack.png',
+            'builds/personal-projects/SunsetIsle/SunsetIsleSide.png',
+            'builds/personal-projects/SunsetIsle/SunsetIsleTerra.png',
+            'builds/personal-projects/SunsetIsle/SunsetIslePath.png',
+            'builds/personal-projects/SunsetIsle/SunsetIsleAerial.png'
+        ]
     }
 };
 
