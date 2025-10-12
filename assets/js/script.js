@@ -153,6 +153,19 @@ const buildData = {
             'builds/xenos-builds/XenosCastle/XenosCastleAerial.png',
             'builds/xenos-builds/XenosCastle/XenosCastleOut.png'
         ]
+    },
+    'dragon-point-castle': {
+        title: 'Dragon Point Castle',
+        description: 'A magnificent dragon-themed castle that combines medieval fortress architecture with fantastical dragon motifs. This impressive structure features towering spires, intricate stonework, and dramatic dragon sculptures integrated into the castle\'s design. The build showcases both defensive capabilities and mythical grandeur, creating a perfect balance between functionality and fantasy aesthetics.\n\nBuilt as a collaboration with creeper5777, alaiwe, and mengzach.',
+        images: [
+            'builds/xenos-builds/DragonPoint/DragonPoint.png',
+            'builds/xenos-builds/DragonPoint/DragonPointSide.png',
+            'builds/xenos-builds/DragonPoint/DragonPointBack.png',
+            'builds/xenos-builds/DragonPoint/DragonPointDragon.png',
+            'builds/xenos-builds/DragonPoint/DragonPointVillage.png',
+            'builds/xenos-builds/DragonPoint/DragonPointGround.png',
+            'builds/xenos-builds/DragonPoint/DragonPointAerial.png'
+        ]
     }
 };
 
