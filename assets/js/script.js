@@ -166,6 +166,19 @@ const buildData = {
             'builds/xenos-builds/DragonPoint/DragonPointGround.png',
             'builds/xenos-builds/DragonPoint/DragonPointAerial.png'
         ]
+    },
+    'royal-palace': {
+        title: 'Royal Palace',
+        description: 'A majestic royal palace showcasing opulent architecture and regal grandeur. This magnificent structure features elegant facades, grand courtyards, intricate detailing, and luxurious interiors that embody the essence of royal sophistication. From aerial perspectives to intimate interior spaces, every angle reveals the meticulous craftsmanship and architectural excellence that defines true palatial design.\n\nCommissioned for Nitric Concepts for the Minecraft Marketplace.',
+        images: [
+            'builds/marketplace-projects/NitricPalace/NitricPalace.png',
+            'builds/marketplace-projects/NitricPalace/NitricPalaceCenter.png',
+            'builds/marketplace-projects/NitricPalace/NitricPalaceDepth.png',
+            'builds/marketplace-projects/NitricPalace/NitricPalaceAngle.png',
+            'builds/marketplace-projects/NitricPalace/NitricPalaceSide.png',
+            'builds/marketplace-projects/NitricPalace/NitricPalaceAerial.png',
+            'builds/marketplace-projects/NitricPalace/NitricPalaceInterior.png'
+        ]
     }
 };
 
