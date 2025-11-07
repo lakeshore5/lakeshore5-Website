@@ -191,6 +191,20 @@ const buildData = {
             'builds/xenos-builds/SkuxxVerse/SkuxxVerse.JPG'
         ]
     },
+    'skull-castle': {
+        title: 'Skull Castle',
+        description: 'A menacing fortress that embodies dark architectural mastery with intricate skull motifs and gothic design elements. This imposing structure showcases detailed stonework, dramatic spires, and ominous atmospheric elements that create a truly formidable presence. Every angle reveals the meticulous craftsmanship that brings this sinister castle to life.\n\nDemo project for an upcoming 11,000x11,000 map. Built as a collaboration with InfinityBuilds and Jetblade3000 in 3 days.',
+        images: [
+            'builds/personal-projects/Skull_Castle/SkullCastle.png',
+            'builds/personal-projects/Skull_Castle/SkullCastleSide.png',
+            'builds/personal-projects/Skull_Castle/SkullCastleBackSide.png',
+            'builds/personal-projects/Skull_Castle/SkullCastleBackAerial.png',
+            'builds/personal-projects/Skull_Castle/SkullCastleBack.png',
+            'builds/personal-projects/Skull_Castle/SkullCastleFrontDetails.png',
+            'builds/personal-projects/Skull_Castle/SkullCastleBackDetails.png',
+            'builds/personal-projects/Skull_Castle/SkullCastleTopDetails.png'
+        ]
+    },
     'sunset-isle': {
         title: 'Sunset Isle',
         description: 'A serene tropical paradise that captures the tranquil beauty of an island getaway at golden hour. This charming build features pristine beaches, lush vegetation, and carefully designed pathways that invite exploration. The warm lighting and natural terrain create a peaceful atmosphere perfect for relaxation and contemplation.\n\nBuilt for fun in one day.',
