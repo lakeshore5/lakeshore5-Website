@@ -42,7 +42,7 @@ const buildData = {
     },
     'aurelios': {
         title: 'Aurelios The Lost City',
-        description: 'An underwater metropolis that once thrived beneath the waves, now partially reclaimed by the ocean. This ambitious build combines classical architecture with aquatic elements, featuring grand colonnades, sunken plazas, and mysterious ruins. The attention to detail in both the architectural elements and the underwater atmosphere creates a truly immersive experience.\n\nBuilt on athion.net, version 1.12.2\nPlot size 609x609',
+        description: 'An underwater metropolis that once thrived beneath the waves, now partially reclaimed by the ocean. This ambitious build combines classical architecture with aquatic elements, featuring grand colonnades, sunken plazas, and mysterious ruins. Every major structure in the city is fully built out on the interior as well, with detailed chambers, sunken halls, and inhabited spaces throughout, so the ruins feel like a living lost civilization rather than a shell of one. The attention to detail in both the architectural elements and the underwater atmosphere creates a truly immersive experience.\n\nBuilt on athion.net, version 1.12.2\nPlot size 609x609',
         images: [
             'builds/athion-builds/Aurelios_the_Lost_City/Atlantis.webp',
             'builds/athion-builds/Aurelios_the_Lost_City/AtlantisAerial.webp',
@@ -70,12 +70,24 @@ const buildData = {
     },
     'yuanhua-pagoda': {
         title: 'Yuanhua Pagoda',
-        description: 'A magnificent traditional Chinese pagoda that embodies the essence of ancient oriental architecture with meticulous attention to detail. This multi-tiered structure showcases intricate wooden frameworks, elegant curved rooflines, and ornate decorative elements that reflect centuries of architectural tradition. The pagoda stands as a testament to the harmony between natural materials and sophisticated design, featuring traditional landscaping and mythical dragon motifs that enhance its cultural authenticity.\n\nBuilt on the Bakery server, 2024\nPlot size 501x501',
+        description: 'A magnificent traditional Chinese pagoda that embodies the essence of ancient oriental architecture with meticulous attention to detail. This multi-tiered structure showcases intricate wooden frameworks, elegant curved rooflines, and ornate decorative elements that reflect centuries of architectural tradition. Particular care was given to the small-scale detailing throughout the build, from hand-crafted latticework and layered roof tiles to the carefully composed interiors, where furnishings, lanterns, and decorative accents bring each room to life. The pagoda stands as a testament to the harmony between natural materials and sophisticated design, featuring traditional landscaping and mythical dragon motifs that enhance its cultural authenticity.\n\nBuilt on the Bakery server, 2024\nPlot size 501x501',
         images: [
             'builds/personal-projects/Yuanhua_Pagoda/OrientalCinematic.webp',
             'builds/personal-projects/Yuanhua_Pagoda/OrientalAerial.webp',
             'builds/personal-projects/Yuanhua_Pagoda/OrientalDragon.webp',
-            'builds/personal-projects/Yuanhua_Pagoda/OrientalBuild.webp'
+            'builds/personal-projects/Yuanhua_Pagoda/OrientalBuild.webp',
+            'builds/personal-projects/Yuanhua_Pagoda/OrientalImmersive1.webp',
+            'builds/personal-projects/Yuanhua_Pagoda/OrientalImmersive2.webp',
+            'builds/personal-projects/Yuanhua_Pagoda/OrientalInterior.webp',
+            'builds/personal-projects/Yuanhua_Pagoda/OrientalInterior2.webp',
+            'builds/personal-projects/Yuanhua_Pagoda/OrientalInterior3.webp'
+        ]
+    },
+    'helen-of-troy': {
+        title: 'Helen of Troy Organic Showcase',
+        description: 'An organic terrain and character showcase inspired by the legendary Helen of Troy, whose face launched a thousand ships. This piece is part of an ongoing series of builds drawing from the epics of Homer, reimagining the myths of the Iliad and the Odyssey through large-scale Minecraft artistry. The showcase highlights sculpted organic forms, expressive silhouettes, and carefully layered detailing designed to translate the emotional weight of Homeric storytelling into a fully three-dimensional scene.\n\nBuilt in 2026 on BuildersRefuge, Minecraft version 1.21.11\nPart of an ongoing project inspired by the works of Homer',
+        images: [
+            'builds/personal-projects/HelenOfTroyOrganic/WomanOrganic.webp'
         ]
     },
     'adventus-mortis': {
@@ -100,7 +112,7 @@ const buildData = {
     },
     'christmas-build-battle': {
         title: 'Christmas 2231',
-        description: 'A collaborative futuristic Christmas wonderland that reimagines holiday traditions in the year 2231. Partnering with creeper5777, we blended festive cheer with cutting-edge sci-fi architecture to create a complete space-age Christmas village. The project features advanced structures, floating islands, and innovative holiday designs that demonstrate rapid creative execution while maintaining exceptional attention to detail and thematic consistency.\n\nBuilt in Minecraft 1.12.2 as a 2-person collaborative build battle\nCompleted in under one week',
+        description: 'A collaborative futuristic Christmas wonderland that reimagines holiday traditions in the year 2231. Partnering with creeper5777, we blended festive cheer with cutting-edge sci-fi architecture to create a complete space-age Christmas village. The project features advanced structures, floating islands, and innovative holiday designs that demonstrate rapid creative execution while maintaining exceptional attention to detail and thematic consistency. Every building across the village is fully built out on the inside as well, with fully detailed interiors — decorated homes, festive shops, and themed rooms — so the entire wonderland is explorable from the storefronts all the way through to the private spaces.\n\nBuilt in Minecraft 1.12.2 as a 2-person collaborative build battle\nCompleted in under one week',
         images: [
             'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmas.webp',
             'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasCinematic.webp',
@@ -120,7 +132,7 @@ const buildData = {
     },
     'cma': {
         title: 'CMA NFT World',
-        description: 'An expansive and immersive Minecraft world showcasing diverse landscapes with multiple biomes, settlements, and architectural styles seamlessly integrated into a cohesive design. This comprehensive project includes everything from grand palaces and bustling villages to serene lakes and dramatic terraforming, creating a complete virtual ecosystem ready for exploration and interaction.\n\nCommissioned NFT Worlds project for CMA, built with creeper5777 (XenosBuilds).',
+        description: 'An expansive and immersive Minecraft world showcasing diverse landscapes with multiple biomes, settlements, and architectural styles seamlessly integrated into a cohesive design. This comprehensive project includes everything from grand palaces and bustling villages to serene lakes and dramatic terraforming, creating a complete virtual ecosystem ready for exploration and interaction. Every major structure across the map is fully built out on the inside as well as the outside, with detailed interiors throughout the palaces, villages, PvP areas, and player plots so no space feels like an empty shell.\n\nCommissioned NFT Worlds project for CMA, built with creeper5777 (XenosBuilds).',
         images: [
             'builds/xenos-builds/CMA/CMACinematic.webp',
             'builds/xenos-builds/CMA/CMAImmersive.webp',
@@ -137,7 +149,7 @@ const buildData = {
     },
     'futurex': {
         title: 'FutureX',
-        description: 'A cutting-edge futuristic city showcasing advanced technology and sleek architectural design. This ambitious project features towering skyscrapers, high-tech laboratories, defensive bastions, and interconnected urban districts that create a cohesive vision of tomorrow. The build demonstrates innovative use of modern materials and lighting to achieve a truly immersive sci-fi atmosphere with detailed interiors and expansive city planning.\n\nXenosBuilds project with creeper5777, designed as an interactive RPG environment.',
+        description: 'A cutting-edge futuristic city showcasing advanced technology and sleek architectural design. This ambitious project features towering skyscrapers, high-tech laboratories, defensive bastions, and interconnected urban districts that create a cohesive vision of tomorrow. Every skyscraper, lab, and bastion is fully built out on the interior as well, with detailed rooms, corridors, and functional spaces throughout, giving players a truly complete sci-fi city to explore rather than a hollow skyline. The build demonstrates innovative use of modern materials and lighting to achieve a truly immersive sci-fi atmosphere with expansive city planning.\n\nXenosBuilds project with creeper5777, designed as an interactive RPG environment.',
         images: [
             'builds/xenos-builds/FutureX/FutureX.webp',
             'builds/xenos-builds/FutureX/FutureXCity.webp',
@@ -149,7 +161,7 @@ const buildData = {
     },
     'xenos-castle': {
         title: 'Xenos Castle',
-        description: 'A formidable medieval fortress designed for epic siege warfare and strategic combat. This imposing castle features massive defensive walls, towering battlements, intricate interior chambers, and tactical positioning that creates the perfect battlefield for intense multiplayer encounters. The design balances historical authenticity with gameplay functionality, offering multiple levels of engagement from ground assaults to aerial perspectives.\n\nXenosBuilds project with creeper5777, designed as an interactive castle siege minigame.\nBuilt in one day.',
+        description: 'A formidable medieval fortress designed for epic siege warfare and strategic combat. This imposing castle features massive defensive walls, towering battlements, and tactical positioning that creates the perfect battlefield for intense multiplayer encounters. The entire castle is fully built out on the inside, with detailed great halls, barracks, corridors, and chamber-to-chamber interiors that allow combat and exploration to flow seamlessly from the outer walls all the way into the keep. The design balances historical authenticity with gameplay functionality, offering multiple levels of engagement from ground assaults to aerial perspectives.\n\nXenosBuilds project with creeper5777, designed as an interactive castle siege minigame.\nBuilt in one day.',
         images: [
             'builds/xenos-builds/XenosCastle/XenosCastle.webp',
             'builds/xenos-builds/XenosCastle/XenosCastleGround.webp',
@@ -160,7 +172,7 @@ const buildData = {
     },
     'dragon-point-castle': {
         title: 'Dragon Point Castle',
-        description: 'A magnificent dragon-themed castle that combines medieval fortress architecture with fantastical dragon motifs. This impressive structure features towering spires, intricate stonework, and dramatic dragon sculptures integrated into the castle\'s design. The build showcases both defensive capabilities and mythical grandeur, creating a perfect balance between functionality and fantasy aesthetics.\n\nBuilt as a collaboration with creeper5777, alaiwe, and mengzach.',
+        description: 'A magnificent dragon-themed castle that combines medieval fortress architecture with fantastical dragon motifs. This impressive structure features towering spires, intricate stonework, and dramatic dragon sculptures integrated into the castle\'s design. The build is fully realized on the inside as well, with completely detailed interiors throughout every tower, hall, and chamber, so the castle reads as a living fortress rather than a facade. The build showcases both defensive capabilities and mythical grandeur, creating a perfect balance between functionality and fantasy aesthetics.\n\nBuilt as a collaboration with creeper5777, alaiwe, and mengzach.',
         images: [
             'builds/xenos-builds/DragonPoint/DragonPoint.webp',
             'builds/xenos-builds/DragonPoint/DragonPointSide.webp',
@@ -173,7 +185,7 @@ const buildData = {
     },
     'royal-palace': {
         title: 'Royal Palace',
-        description: 'A majestic royal palace showcasing opulent architecture and regal grandeur. This magnificent structure features elegant facades, grand courtyards, intricate detailing, and luxurious interiors that embody the essence of royal sophistication. From aerial perspectives to intimate interior spaces, every angle reveals the meticulous craftsmanship and architectural excellence that defines true palatial design.\n\nCommissioned for Nitric Concepts for the Minecraft Marketplace.',
+        description: 'A majestic royal palace showcasing opulent architecture and regal grandeur. This magnificent structure features elegant facades, grand courtyards, and intricate detailing that embody the essence of royal sophistication. The palace is fully built out on the inside as well, with a complete set of luxurious interiors — throne rooms, ballrooms, private chambers, and connecting corridors — all designed to the same standard as the exterior so guests can wander the entire palace without ever hitting an empty room. From aerial perspectives to intimate interior spaces, every angle reveals the meticulous craftsmanship and architectural excellence that defines true palatial design.\n\nCommissioned for Nitric Concepts for the Minecraft Marketplace.',
         images: [
             'builds/marketplace-projects/NitricPalace/NitricPalace.webp',
             'builds/marketplace-projects/NitricPalace/NitricPalaceCenter.webp',
@@ -186,7 +198,7 @@ const buildData = {
     },
     'skuxxverse': {
         title: 'SkuxxVerse',
-        description: 'An expansive virtual world showcasing diverse environments and immersive gameplay experiences. This comprehensive project demonstrates advanced world-building techniques and creative design solutions that push the boundaries of what\'s possible in Minecraft. The build features multiple biomes, interactive elements, and carefully crafted landscapes that create a truly engaging virtual universe.\n\nNFT Worlds commission for XenosBuilds with creeper5777 and Kimbert.',
+        description: 'An expansive virtual world showcasing diverse environments and immersive gameplay experiences. This comprehensive project demonstrates advanced world-building techniques and creative design solutions that push the boundaries of what\'s possible in Minecraft. Every major structure across the world is fully built out on the interior, with detailed rooms, shops, and interactive spaces throughout, ensuring the experience holds up just as strongly indoors as it does from the outside. The build features multiple biomes, interactive elements, and carefully crafted landscapes that create a truly engaging virtual universe.\n\nNFT Worlds commission for XenosBuilds with creeper5777 and Kimbert.',
         images: [
             'builds/xenos-builds/SkuxxVerse/SkuxxVerse.webp',
             'builds/xenos-builds/SkuxxVerse/SkuxxverseAerial.webp',
