@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
 const buildData = {
     'loriostrond': {
         title: 'Loriostrond',
+        pageUrl: 'projects/loriostrond.html',
         description: 'Loriostrond, the Vaulted City of Dreams, is majestic elven stronghold nestled in the heart of war-torn lands. This build showcases intricate architectural details inspired by Tolkien\'s Middle-earth, featuring soaring spires, elegant bridges, and harmonious integration with the natural landscape. The design emphasizes organic curves and natural materials, creating a living fortress that feels both grand and welcoming.\n\nBuilt on athion.net, version 1.12.2\nPlot size is 1225x1225\nRanked to Grand Creator',
         images: [
             'builds/athion-builds/Loriostrond/LoriostrondNew.webp',
@@ -42,6 +43,7 @@ const buildData = {
     },
     'aurelios': {
         title: 'Aurelios The Lost City',
+        pageUrl: 'projects/aurelios.html',
         description: 'An underwater metropolis that once thrived beneath the waves, now partially reclaimed by the ocean. This ambitious build combines classical architecture with aquatic elements, featuring grand colonnades, sunken plazas, and mysterious ruins. Every major structure in the city is fully built out on the interior as well, with detailed chambers, sunken halls, and inhabited spaces throughout, so the ruins feel like a living lost civilization rather than a shell of one. The attention to detail in both the architectural elements and the underwater atmosphere creates a truly immersive experience.\n\nBuilt on athion.net, version 1.12.2\nPlot size 609x609',
         images: [
             'builds/athion-builds/Aurelios_the_Lost_City/Atlantis.webp',
@@ -58,6 +60,7 @@ const buildData = {
     },
     'heliox-station': {
         title: 'Heliox Station',
+        pageUrl: 'projects/heliox-station.html',
         description: 'A massive orbital research facility suspended in the void of space, Heliox Station represents humanity\'s furthest reach into the cosmos. This ambitious sci-fi build features sleek industrial architecture, advanced docking systems, and cutting-edge research laboratories. The station\'s modular design showcases both functional engineering and aesthetic beauty, with sweeping curves and geometric precision that capture the essence of future space exploration.\n\nBuilt on athion.net, version 1.12.2',
         images: [
             'builds/athion-builds/Heliox_Station/SpaceCinematic.webp',
@@ -70,6 +73,7 @@ const buildData = {
     },
     'yuanhua-pagoda': {
         title: 'Yuanhua Pagoda',
+        pageUrl: 'projects/yuanhua-pagoda.html',
         description: 'A magnificent traditional Chinese pagoda that embodies the essence of ancient oriental architecture with meticulous attention to detail. This multi-tiered structure showcases intricate wooden frameworks, elegant curved rooflines, and ornate decorative elements that reflect centuries of architectural tradition. Particular care was given to the small-scale detailing throughout the build, from hand-crafted latticework and layered roof tiles to the carefully composed interiors, where furnishings, lanterns, and decorative accents bring each room to life. The pagoda stands as a testament to the harmony between natural materials and sophisticated design, featuring traditional landscaping and mythical dragon motifs that enhance its cultural authenticity.\n\nBuilt on the Bakery server, 2024\nPlot size 501x501',
         images: [
             'builds/personal-projects/Yuanhua_Pagoda/OrientalCinematic.webp',
@@ -85,6 +89,7 @@ const buildData = {
     },
     'helen-of-troy': {
         title: 'Helen of Troy Organic Showcase',
+        pageUrl: 'projects/helen-of-troy.html',
         description: 'An organic terrain and character showcase inspired by the legendary Helen of Troy, whose face launched a thousand ships. This piece is part of an ongoing series of builds drawing from the epics of Homer, reimagining the myths of the Iliad and the Odyssey through large-scale Minecraft artistry. The showcase highlights sculpted organic forms, expressive silhouettes, and carefully layered detailing designed to translate the emotional weight of Homeric storytelling into a fully three-dimensional scene.\n\nBuilt in 2026 on BuildersRefuge, Minecraft version 1.21.11\nPart of an ongoing project inspired by the works of Homer',
         images: [
             'builds/personal-projects/HelenOfTroyOrganic/WomanOrganic.webp'
@@ -92,6 +97,7 @@ const buildData = {
     },
     'adventus-mortis': {
         title: 'Adventus Mortis',
+        pageUrl: 'projects/adventus-mortis.html',
         description: 'Inspired by the Monument to Cardinal Cinzio Aldobrandini, San Pietro in Vincoli, this tribute to the Angel of Death seamlessly integrates baroque altar designs with large scale organics and plantlife to create a dark, foreboding atmosphere. The harsh contrast of light and dark is reminiscent of chiaroscuro art works.\n\nBuilt in 2024 on BuildersRefuge.',
         images: [
             'builds/personal-projects/Adventus_Mortis/DeathAltar.webp'
@@ -99,6 +105,7 @@ const buildData = {
     },
     'palais-lumiere': {
         title: 'Palais Lumière',
+        pageUrl: 'projects/palais-lumiere.html',
         description: 'An elegant French baroque palace showcasing the grandeur and sophistication of classical European architecture. This magnificent structure features ornate decorative elements and symmetrical facades that embody the opulence of French palatial design. Every detail has been meticulously crafted to capture the essence of aristocratic elegance and architectural refinement.\n\nBuilt in 2020 on BuildersRefuge\nInspired by French baroque architecture',
         images: [
             'builds/personal-projects/Palais_Lumière/LumCard.webp',
@@ -112,7 +119,8 @@ const buildData = {
     },
     'christmas-build-battle': {
         title: 'Christmas 2231',
-        description: 'A collaborative futuristic Christmas wonderland that reimagines holiday traditions in the year 2231. Partnering with creeper5777, we blended festive cheer with cutting-edge sci-fi architecture to create a complete space-age Christmas village. The project features advanced structures, floating islands, and innovative holiday designs that demonstrate rapid creative execution while maintaining exceptional attention to detail and thematic consistency. Every building across the village is fully built out on the inside as well, with fully detailed interiors — decorated homes, festive shops, and themed rooms — so the entire wonderland is explorable from the storefronts all the way through to the private spaces.\n\nBuilt in Minecraft 1.12.2 as a 2-person collaborative build battle\nCompleted in under one week',
+        pageUrl: 'projects/christmas-2231.html',
+        description: 'A collaborative futuristic Christmas wonderland that reimagines holiday traditions in the year 2231. Partnering with creeper5777, we blended festive cheer with cutting-edge sci-fi architecture to create a complete space-age Christmas village. The project features advanced structures, floating islands, and innovative holiday designs that demonstrate rapid creative execution while maintaining exceptional attention to detail and thematic consistency. Every building across the village is fully built out on the inside as well, with fully detailed interiors - decorated homes, festive shops, and themed rooms - so the entire wonderland is explorable from the storefronts all the way through to the private spaces.\n\nBuilt in Minecraft 1.12.2 as a 2-person collaborative build battle\nCompleted in under one week',
         images: [
             'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmas.webp',
             'builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmasCinematic.webp',
@@ -132,6 +140,7 @@ const buildData = {
     },
     'cma': {
         title: 'CMA NFT World',
+        pageUrl: 'projects/cma-world.html',
         description: 'An expansive and immersive Minecraft world showcasing diverse landscapes with multiple biomes, settlements, and architectural styles seamlessly integrated into a cohesive design. This comprehensive project includes everything from grand palaces and bustling villages to serene lakes and dramatic terraforming, creating a complete virtual ecosystem ready for exploration and interaction. Every major structure across the map is fully built out on the inside as well as the outside, with detailed interiors throughout the palaces, villages, PvP areas, and player plots so no space feels like an empty shell.\n\nCommissioned NFT Worlds project for CMA, built with creeper5777 (XenosBuilds).',
         images: [
             'builds/xenos-builds/CMA/CMACinematic.webp',
@@ -149,6 +158,7 @@ const buildData = {
     },
     'futurex': {
         title: 'FutureX',
+        pageUrl: 'projects/futurex.html',
         description: 'A cutting-edge futuristic city showcasing advanced technology and sleek architectural design. This ambitious project features towering skyscrapers, high-tech laboratories, defensive bastions, and interconnected urban districts that create a cohesive vision of tomorrow. Every skyscraper, lab, and bastion is fully built out on the interior as well, with detailed rooms, corridors, and functional spaces throughout, giving players a truly complete sci-fi city to explore rather than a hollow skyline. The build demonstrates innovative use of modern materials and lighting to achieve a truly immersive sci-fi atmosphere with expansive city planning.\n\nXenosBuilds project with creeper5777, designed as an interactive RPG environment.',
         images: [
             'builds/xenos-builds/FutureX/FutureX.webp',
@@ -161,6 +171,7 @@ const buildData = {
     },
     'xenos-castle': {
         title: 'Xenos Castle',
+        pageUrl: 'projects/xenos-castle.html',
         description: 'A formidable medieval fortress designed for epic siege warfare and strategic combat. This imposing castle features massive defensive walls, towering battlements, and tactical positioning that creates the perfect battlefield for intense multiplayer encounters. The entire castle is fully built out on the inside, with detailed great halls, barracks, corridors, and chamber-to-chamber interiors that allow combat and exploration to flow seamlessly from the outer walls all the way into the keep. The design balances historical authenticity with gameplay functionality, offering multiple levels of engagement from ground assaults to aerial perspectives.\n\nXenosBuilds project with creeper5777, designed as an interactive castle siege minigame.\nBuilt in one day.',
         images: [
             'builds/xenos-builds/XenosCastle/XenosCastle.webp',
@@ -172,6 +183,7 @@ const buildData = {
     },
     'dragon-point-castle': {
         title: 'Dragon Point Castle',
+        pageUrl: 'projects/dragon-point-castle.html',
         description: 'A magnificent dragon-themed castle that combines medieval fortress architecture with fantastical dragon motifs. This impressive structure features towering spires, intricate stonework, and dramatic dragon sculptures integrated into the castle\'s design. The build is fully realized on the inside as well, with completely detailed interiors throughout every tower, hall, and chamber, so the castle reads as a living fortress rather than a facade. The build showcases both defensive capabilities and mythical grandeur, creating a perfect balance between functionality and fantasy aesthetics.\n\nBuilt as a collaboration with creeper5777, alaiwe, and mengzach.',
         images: [
             'builds/xenos-builds/DragonPoint/DragonPoint.webp',
@@ -185,7 +197,8 @@ const buildData = {
     },
     'royal-palace': {
         title: 'Royal Palace',
-        description: 'A majestic royal palace showcasing opulent architecture and regal grandeur. This magnificent structure features elegant facades, grand courtyards, and intricate detailing that embody the essence of royal sophistication. The palace is fully built out on the inside as well, with a complete set of luxurious interiors — throne rooms, ballrooms, private chambers, and connecting corridors — all designed to the same standard as the exterior so guests can wander the entire palace without ever hitting an empty room. From aerial perspectives to intimate interior spaces, every angle reveals the meticulous craftsmanship and architectural excellence that defines true palatial design.\n\nCommissioned for Nitric Concepts for the Minecraft Marketplace.',
+        pageUrl: 'projects/royal-palace.html',
+        description: 'A majestic royal palace showcasing opulent architecture and regal grandeur. This magnificent structure features elegant facades, grand courtyards, and intricate detailing that embody the essence of royal sophistication. The palace is fully built out on the inside as well, with a complete set of luxurious interiors - throne rooms, ballrooms, private chambers, and connecting corridors - all designed to the same standard as the exterior so guests can wander the entire palace without ever hitting an empty room. From aerial perspectives to intimate interior spaces, every angle reveals the meticulous craftsmanship and architectural excellence that defines true palatial design.\n\nCommissioned for Nitric Concepts for the Minecraft Marketplace.',
         images: [
             'builds/marketplace-projects/NitricPalace/NitricPalace.webp',
             'builds/marketplace-projects/NitricPalace/NitricPalaceCenter.webp',
@@ -198,6 +211,7 @@ const buildData = {
     },
     'skuxxverse': {
         title: 'SkuxxVerse',
+        pageUrl: 'projects/skuxxverse.html',
         description: 'An expansive virtual world showcasing diverse environments and immersive gameplay experiences. This comprehensive project demonstrates advanced world-building techniques and creative design solutions that push the boundaries of what\'s possible in Minecraft. Every major structure across the world is fully built out on the interior, with detailed rooms, shops, and interactive spaces throughout, ensuring the experience holds up just as strongly indoors as it does from the outside. The build features multiple biomes, interactive elements, and carefully crafted landscapes that create a truly engaging virtual universe.\n\nNFT Worlds commission for XenosBuilds with creeper5777 and Kimbert.',
         images: [
             'builds/xenos-builds/SkuxxVerse/SkuxxVerse.webp',
@@ -213,6 +227,7 @@ const buildData = {
     },
     'skull-castle': {
         title: 'Skull Castle',
+        pageUrl: 'projects/skull-castle.html',
         description: 'A menacing fortress that embodies dark architectural mastery with intricate skull motifs and gothic design elements. This imposing structure showcases detailed stonework, dramatic spires, and ominous atmospheric elements that create a truly formidable presence. Every angle reveals the meticulous craftsmanship that brings this sinister castle to life.\n\nDemo project for an upcoming 11,000x11,000 map. Built as a collaboration with InfinityBuilds and Jetblade3000 in 3 days.',
         images: [
             'builds/personal-projects/Skull_Castle/SkullCastle.webp',
@@ -227,6 +242,7 @@ const buildData = {
     },
     'sunset-isle': {
         title: 'Sunset Isle',
+        pageUrl: 'projects/sunset-isle.html',
         description: 'A serene tropical paradise that captures the tranquil beauty of an island getaway at golden hour. This charming build features pristine beaches, lush vegetation, and carefully designed pathways that invite exploration. The warm lighting and natural terrain create a peaceful atmosphere perfect for relaxation and contemplation.\n\nBuilt for fun in one day.',
         images: [
             'builds/personal-projects/SunsetIsle/FrontSS.webp',
@@ -239,6 +255,7 @@ const buildData = {
     },
     'mrbeast': {
         title: 'MrBeast Competition',
+        pageUrl: 'projects/mrbeast-competition.html',
         description: 'As a part of Mr. Beast\'s 2 week long, 1500x1500, prestigious Countries Build Competition, lakeshore5 joined an all star lineup to compete as, and against, the other absolute top global builders in the world. The Scope of the project was to capture the essence of the United States in a single build. lakeshore5 contributed by doing 100% of the terraforming (in less than 2 days), several city blocks, the Seattle Space needle, the composition for the 6 surrounding Islands (The Northwest, the Midwest, Hollywood, Hawaii, The East Coast, and The South), The Alamo and surrounding structures, Uncle Sam, the Washington Memorial and other monumental east coast architecture, atmosphereic details, pasting in all the lovely trees and organic elements (designed by the esteemed InfinityBuilds), and a large amount of the touch up, integration, and general thematic elements. lakeshore5 was thrilled to work with some of his closest colleagues in InfinityBuilds and creeper5777 on a project of just magnitude, and was happy to be counted among the best builders alive.',
         images: [
             'builds/personal-projects/MrBeast/BeastFront.webp',
@@ -291,13 +308,19 @@ const buildData = {
 // Initialize build cards interaction
 function initBuildCards() {
     const buildCards = document.querySelectorAll('.build-card');
-    
+
     buildCards.forEach(card => {
-        card.addEventListener('click', function() {
+        card.addEventListener('click', function(e) {
             const buildId = this.getAttribute('data-build');
-            if (buildData[buildId]) {
-                openBuildModal(buildId);
+            const build = buildData[buildId];
+            if (!build) return;
+            // If a dedicated case-study page exists, navigate to it.
+            if (build.pageUrl) {
+                // Allow cmd/ctrl-click behavior for new tab via anchor fallback if present
+                window.location.href = build.pageUrl;
+                return;
             }
+            openBuildModal(buildId);
         });
     });
 }

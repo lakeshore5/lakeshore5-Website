@@ -20,57 +20,57 @@ https://raw.githubusercontent.com/lakeshore5/lakeshore5-Website/main/builds/xeno
 
 **Loriostrond - Vaulted City Main View**
 ```
-https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNew.png
+https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNew.png
 ```
-![Loriostrond Main View](https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNew.png)
+![Loriostrond Main View](https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNew.png)
 
 **Loriostrond - Aerial View**
 ```
-https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewAerial.png
+https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNewAerial.png
 ```
-![Loriostrond Aerial View](https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewAerial.png)
+![Loriostrond Aerial View](https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNewAerial.png)
 
 **Aurelios - The Lost City Main View**
 ```
-https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Aurelios_the_Lost_City/Atlantis.png
+https://www.lakeshore5.com/builds/athion-builds/Aurelios_the_Lost_City/Atlantis.png
 ```
-![Aurelios The Lost City](https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Aurelios_the_Lost_City/Atlantis.png)
+![Aurelios The Lost City](https://www.lakeshore5.com/builds/athion-builds/Aurelios_the_Lost_City/Atlantis.png)
 
 **CMA NFT World - Cinematic View**
 ```
-https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/CMA/CMACinematic.png
+https://www.lakeshore5.com/builds/xenos-builds/CMA/CMACinematic.png
 ```
-![CMA NFT World Cinematic](https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/CMA/CMACinematic.png)
+![CMA NFT World Cinematic](https://www.lakeshore5.com/builds/xenos-builds/CMA/CMACinematic.png)
 
 **FutureX - Sci-Fi RPG World**
 ```
-https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/FutureX/FutureX.png
+https://www.lakeshore5.com/builds/xenos-builds/FutureX/FutureX.png
 ```
-![FutureX Sci-Fi World](https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/FutureX/FutureX.png)
+![FutureX Sci-Fi World](https://www.lakeshore5.com/builds/xenos-builds/FutureX/FutureX.png)
 
 **Christmas 2231 - Futuristic Holiday Build**
 ```
-https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmas.png
+https://www.lakeshore5.com/builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmas.png
 ```
-![Christmas 2231 Futuristic Holiday](https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmas.png)
+![Christmas 2231 Futuristic Holiday](https://www.lakeshore5.com/builds/xenos-builds/Futuristic_Christmas_BuildBattle/SpaceChristmas.png)
 
 **Palais Lumière - French Baroque Palace**
 ```
-https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Palais_Lumiere/FrenchFront.png
+https://www.lakeshore5.com/builds/personal-projects/Palais_Lumiere/FrenchFront.png
 ```
-![Palais Lumière French Palace](https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Palais_Lumiere/FrenchFront.png)
+![Palais Lumière French Palace](https://www.lakeshore5.com/builds/personal-projects/Palais_Lumiere/FrenchFront.png)
 
 **Adventus Mortis - Dark Fantasy Death Altar**
 ```
-https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Adventus_Mortis/DeathAltar.png
+https://www.lakeshore5.com/builds/personal-projects/Adventus_Mortis/DeathAltar.png
 ```
-![Adventus Mortis Death Altar](https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Adventus_Mortis/DeathAltar.png)
+![Adventus Mortis Death Altar](https://www.lakeshore5.com/builds/personal-projects/Adventus_Mortis/DeathAltar.png)
 
 **Yuanhua Pagoda - Chinese Architecture**
 ```
-https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Yuanhua_Pagoda/OrientalCinematic.png
+https://www.lakeshore5.com/builds/personal-projects/Yuanhua_Pagoda/OrientalCinematic.png
 ```
-![Yuanhua Pagoda Chinese Architecture](https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Yuanhua_Pagoda/OrientalCinematic.png)
+![Yuanhua Pagoda Chinese Architecture](https://www.lakeshore5.com/builds/personal-projects/Yuanhua_Pagoda/OrientalCinematic.png)
 
 ---
 
@@ -79,16 +79,16 @@ https://lakeshore5.github.io/lakeshore5-Website/builds/personal-projects/Yuanhua
 These GitHub Pages URLs work because they have proper MIME types:
 
 **Heliox Station Gallery**
-- https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceBuild.png
-- https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceAerial.png
-- https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceTerra.png
-- https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceShip.png
+- https://www.lakeshore5.com/builds/athion-builds/Heliox_Station/SpaceBuild.png
+- https://www.lakeshore5.com/builds/athion-builds/Heliox_Station/SpaceAerial.png
+- https://www.lakeshore5.com/builds/athion-builds/Heliox_Station/SpaceTerra.png
+- https://www.lakeshore5.com/builds/athion-builds/Heliox_Station/SpaceShip.png
 
 **Xenos Castle Gallery**
-- https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/XenosCastle/XenosCastleGround.png
-- https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/XenosCastle/XenosCastleInside.png
-- https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/XenosCastle/XenosCastleAerial.png
-- https://lakeshore5.github.io/lakeshore5-Website/builds/xenos-builds/XenosCastle/XenosCastleOut.png
+- https://www.lakeshore5.com/builds/xenos-builds/XenosCastle/XenosCastleGround.png
+- https://www.lakeshore5.com/builds/xenos-builds/XenosCastle/XenosCastleInside.png
+- https://www.lakeshore5.com/builds/xenos-builds/XenosCastle/XenosCastleAerial.png
+- https://www.lakeshore5.com/builds/xenos-builds/XenosCastle/XenosCastleOut.png
 
 ---
 
@@ -117,7 +117,7 @@ All images above are formatted for direct copy-paste into ChatGPT conversations 
 ### Method 1: Copy Complete Markdown (Recommended)
 Copy any complete line like:
 ```
-![Loriostrond Main View](https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNew.png)
+![Loriostrond Main View](https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNew.png)
 ```
 
 ### Method 2: Copy Just the URL
@@ -126,11 +126,11 @@ Copy any complete line like:
 3. **If it works in browser, it should embed in ChatGPT**
 
 ### Method 3: Use the Complete Gallery
-Visit: https://lakeshore5.github.io/lakeshore5-Website/verified-working-gallery.html
+Visit: https://www.lakeshore5.com/verified-working-gallery.html
 
 ## 🎨 **Full Portfolio**
-- **Main Site**: https://lakeshore5.github.io/lakeshore5-Website/
-- **Complete Gallery**: https://lakeshore5.github.io/lakeshore5-Website/embed-gallery.html
+- **Main Site**: https://www.lakeshore5.com/
+- **Complete Gallery**: https://www.lakeshore5.com/embed-gallery.html
 
 ## 📄 **License**
 All images: **CC BY 4.0** - Attribution required: "Image by lakeshore5"

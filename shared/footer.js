@@ -8,6 +8,23 @@ function loadFooter() {
         return;
     }
 
+    // Same base-path logic as navbar so links work on file://, GitHub Pages project URL, and custom domain
+    const base = (function() {
+        const path = window.location.pathname;
+        if (window.location.protocol === 'file:') {
+            if (/\/projects\//.test(path)) return '..';
+            if (/\/services\//.test(path)) return '..';
+            if (/\/articles\//.test(path)) return '..';
+            return '.';
+        }
+        if (window.location.hostname.endsWith('github.io')) {
+            const parts = path.split('/').filter(Boolean);
+            if (parts.length > 0) return '/' + parts[0];
+        }
+        return '';
+    })();
+    const url = (p) => base + p;
+
     // Embed footer HTML directly to avoid file:// protocol issues
     const footerHTML = `
     <footer class="footer">
@@ -16,14 +33,15 @@ function loadFooter() {
                 <div class="footer-section">
                     <h3>lakeshore5</h3>
                     <p>Professional Minecraft Builder</p>
-                    <p>Building digital worlds since 2014</p>
+                    <p>Building digital worlds since 2012</p>
                 </div>
                 <div class="footer-section">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="./">Portfolio</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="${url('/')}">Portfolio</a></li>
+                        <li><a href="${url('/services/')}">Services</a></li>
+                        <li><a href="${url('/about.html')}">About</a></li>
+                        <li><a href="${url('/contact.html')}">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -36,7 +54,7 @@ function loadFooter() {
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 lakeshore5. All rights reserved.</p>
+                <p>&copy; 2026 lakeshore5. All rights reserved.</p>
             </div>
         </div>
     </footer>`;

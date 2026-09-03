@@ -4,4 +4,4 @@ Allow: /builds/
 Allow: /assets/
 Allow: /images.html
 
-Sitemap: https://lakeshore5.github.io/lakeshore5-Website/sitemap.xml
+Sitemap: https://www.lakeshore5.com/sitemap.xml

@@ -4,115 +4,115 @@
   "description": "Direct URLs for all embeddable images in lakeshore5's Minecraft portfolio",
   "license": "CC BY 4.0",
   "attribution": "lakeshore5 - Professional Minecraft Builder",
-  "base_url": "https://lakeshore5.github.io/lakeshore5-Website/",
-  "embed_gallery_url": "https://lakeshore5.github.io/lakeshore5-Website/embed-gallery.html",
+  "base_url": "https://www.lakeshore5.com/",
+  "embed_gallery_url": "https://www.lakeshore5.com/embed-gallery.html",
   "total_images": 77,
   "last_updated": "2025-10-11",
   "images": [
     {
       "project": "Loriostrond",
       "urls": [
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNew.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewAerial.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewTerra.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewSide.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewRear.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewCliffs.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewTerraSide.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewForest.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewGarden.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/LoriostrondNewTerraDetails.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/2025-09-28_03.45.38.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/2025-09-28_03.50.43.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/F38A1212-357A-49DC-9B6B-49E8E30EC118.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/DE517882-5A17-4025-B7B6-D0A90256E342.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/A54345AB-9C23-4922-B909-1F3A203B0E91.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/54A2F9D5-EB08-45A1-A5A6-A3CDE6DE13D2.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Loriostrond/6BDBA87F-774B-4C79-A649-5166F6076A0E.webp"
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNew.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNewAerial.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNewTerra.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNewSide.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNewRear.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNewCliffs.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNewTerraSide.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNewForest.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNewGarden.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/LoriostrondNewTerraDetails.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/2025-09-28_03.45.38.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/2025-09-28_03.50.43.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/F38A1212-357A-49DC-9B6B-49E8E30EC118.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/DE517882-5A17-4025-B7B6-D0A90256E342.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/A54345AB-9C23-4922-B909-1F3A203B0E91.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/54A2F9D5-EB08-45A1-A5A6-A3CDE6DE13D2.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Loriostrond/6BDBA87F-774B-4C79-A649-5166F6076A0E.webp"
       ]
     },
     {
       "project": "Aurelios",
       "urls": [
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Aurelios_the_Lost_City/Atlantis.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Aurelios_the_Lost_City/AtlantisAerial.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Aurelios_the_Lost_City/AtlantisCloseUp.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Aurelios_the_Lost_City/AtlantisSide.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Aurelios_the_Lost_City/AtlantisTerra.webp"
+        "https://www.lakeshore5.com/builds/athion-builds/Aurelios_the_Lost_City/Atlantis.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Aurelios_the_Lost_City/AtlantisAerial.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Aurelios_the_Lost_City/AtlantisCloseUp.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Aurelios_the_Lost_City/AtlantisSide.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Aurelios_the_Lost_City/AtlantisTerra.webp"
       ]
     },
     {
       "project": "Heliox Station",
       "urls": [
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceBuild.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceAerial.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceCinematic.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceMap.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceShip.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Heliox_Station/SpaceTerra.webp"
+        "https://www.lakeshore5.com/builds/athion-builds/Heliox_Station/SpaceBuild.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Heliox_Station/SpaceAerial.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Heliox_Station/SpaceCinematic.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Heliox_Station/SpaceMap.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Heliox_Station/SpaceShip.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Heliox_Station/SpaceTerra.webp"
       ]
     },
     {
       "project": "Xenos Castle",
       "urls": [
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Xenos_Castle/Castle.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Xenos_Castle/CastleAerial.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Xenos_Castle/CastleCloseUp.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Xenos_Castle/CastleRear.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Xenos_Castle/CastleSide.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/athion-builds/Xenos_Castle/CastleTerra.webp"
+        "https://www.lakeshore5.com/builds/athion-builds/Xenos_Castle/Castle.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Xenos_Castle/CastleAerial.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Xenos_Castle/CastleCloseUp.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Xenos_Castle/CastleRear.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Xenos_Castle/CastleSide.webp",
+        "https://www.lakeshore5.com/builds/athion-builds/Xenos_Castle/CastleTerra.webp"
       ]
     },
     {
       "project": "CMA Build",
       "urls": [
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_121915_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_121928_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_121936_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_121946_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_121954_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122002_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122011_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122026_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122035_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122044_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122058_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122112_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122125_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122135_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122141_Minecraft.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/cma-builds/Screenshot_20250115_122153_Minecraft.webp"
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_121915_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_121928_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_121936_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_121946_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_121954_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_122002_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_122011_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_122026_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_122035_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_122044_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_122058_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_122112_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_122125_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_122135_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_122141_Minecraft.webp",
+        "https://www.lakeshore5.com/builds/cma-builds/Screenshot_20250115_122153_Minecraft.webp"
       ]
     },
     {
       "project": "Personal Builds",
       "urls": [
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/AegisLegion/AegisLegion.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/AegisLegion/AegisLegionAerial.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/AegisLegion/AegisLegionCloseUp.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/AegisLegion/AegisLegionSide.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/AegisLegion/AegisLegionTerra.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Spire/SpireBuild.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Spire/SpireAerial.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Spire/SpireCloseUp.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Spire/SpireSide.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Spire/SpireTerra.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Tower/TowerBuild.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Tower/TowerAerial.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Tower/TowerCloseUp.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Tower/TowerSide.webp",
-        "https://lakeshore5.github.io/lakeshore5-Website/builds/personal-builds/The_Tower/TowerTerra.webp"
+        "https://www.lakeshore5.com/builds/personal-builds/AegisLegion/AegisLegion.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/AegisLegion/AegisLegionAerial.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/AegisLegion/AegisLegionCloseUp.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/AegisLegion/AegisLegionSide.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/AegisLegion/AegisLegionTerra.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/The_Spire/SpireBuild.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/The_Spire/SpireAerial.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/The_Spire/SpireCloseUp.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/The_Spire/SpireSide.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/The_Spire/SpireTerra.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/The_Tower/TowerBuild.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/The_Tower/TowerAerial.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/The_Tower/TowerCloseUp.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/The_Tower/TowerSide.webp",
+        "https://www.lakeshore5.com/builds/personal-builds/The_Tower/TowerTerra.webp"
       ]
     }
   ],
   "cors_friendly_backups": {
     "description": "Alternative URLs for images that may have CORS restrictions",
-    "base_url": "https://lakeshore5.github.io/lakeshore5-Website/cors-friendly-images/",
+    "base_url": "https://www.lakeshore5.com/cors-friendly-images/",
     "images": [
-      "https://lakeshore5.github.io/lakeshore5-Website/cors-friendly-images/loriostrond-main.webp",
-      "https://lakeshore5.github.io/lakeshore5-Website/cors-friendly-images/loriostrond-aerial.webp",
-      "https://lakeshore5.github.io/lakeshore5-Website/cors-friendly-images/aurelios-main.webp",
-      "https://lakeshore5.github.io/lakeshore5-Website/cors-friendly-images/aurelios-aerial.webp"
+      "https://www.lakeshore5.com/cors-friendly-images/loriostrond-main.webp",
+      "https://www.lakeshore5.com/cors-friendly-images/loriostrond-aerial.webp",
+      "https://www.lakeshore5.com/cors-friendly-images/aurelios-main.webp",
+      "https://www.lakeshore5.com/cors-friendly-images/aurelios-aerial.webp"
     ]
   },
   "usage_instructions": {
