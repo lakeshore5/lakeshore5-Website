@@ -40,6 +40,7 @@ function loadFooter() {
                     <ul>
                         <li><a href="${url('/')}">Portfolio</a></li>
                         <li><a href="${url('/services/')}">Services</a></li>
+                        <li><a href="${url('/articles/')}">Articles</a></li>
                         <li><a href="${url('/about.html')}">About</a></li>
                         <li><a href="${url('/contact.html')}">Contact</a></li>
                     </ul>

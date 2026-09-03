@@ -2723,3 +2723,13 @@ img {
     text-indent: -9999px;
     overflow: hidden;
 }
+
+/* Static site map for crawlers - visible to bots, invisible to sighted users */
+.crawler-sitemap {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
