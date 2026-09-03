@@ -688,8 +688,19 @@ img {
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.5);
-        padding: 2rem 0;
+        padding: 0.9rem 0;
+        gap: 0.4rem;
         backdrop-filter: blur(10px);
+    }
+
+    .nav-menu .nav-item { width: 100%; justify-content: center; }
+    .nav-menu .nav-link {
+        display: block;
+        width: 100%;
+        padding: 0.65rem 1rem;
+        font-size: 1.05rem;
+        line-height: 1.2;
+        border-radius: 0;
     }
 
     .nav-menu.active {
@@ -740,13 +751,14 @@ img {
     .nav-dropdown::after { display: none; }
     .nav-dropdown a {
         text-align: center;
-        padding: 0.75rem 1rem;
-        font-size: 1.1rem;
+        padding: 0.65rem 1rem;
+        font-size: 1.05rem;
+        line-height: 1.2;
         border-left: none;
     }
     .nav-dropdown a:hover,
     .nav-dropdown a:focus {
-        padding: 0.75rem 1rem;
+        padding: 0.65rem 1rem;
         border-left: none;
         background: transparent;
     }
