@@ -903,6 +903,11 @@ img {
     background-image: url('../../builds/athion-builds/Aurelios_the_Lost_City/AtlantisInterior.webp');
 }
 
+/* Services Page Specific Styles - uses AtlantisBack hero image */
+.services-background .services-bg-image {
+    background-image: url('../../builds/athion-builds/Aurelios_the_Lost_City/AtlantisBack.webp');
+}
+
 /* Contact Page Specific Styles */
 .contact-background .contact-bg-image {
     background-image: url('../../builds/athion-builds/Aurelios_the_Lost_City/AtlantisBack.webp');
@@ -2706,4 +2711,15 @@ img {
     .project-facts {
         padding: 1.25rem 1rem;
     }
+}
+
+/* SEO: crawlable anchor per build card, invisible + inert to users (JS handles click on parent) */
+.card-link {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0;
+    text-indent: -9999px;
+    overflow: hidden;
 }
