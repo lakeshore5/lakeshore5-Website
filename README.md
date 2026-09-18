@@ -8,7 +8,7 @@ lakeshore5 is a professional Minecraft builder with 10+ years of experience in t
 
 - **Professional Experience**: Collaborated with renowned Minecraft Marketplace teams including Razzleberries, Ayres, and Nitric Concepts
 - **Team Leadership**: Co-owner of Xenos Builds, creating content for Minecraft Marketplace and NFT Worlds
-- **Community Education**: Staff member at Athion server (play.athion.net) since 2017, conducting hundreds of build reviews and live tutorials
+- **Community Education**: Staff member at Athion server (play.athion.net) since 2018, conducting hundreds of build reviews and live tutorials
 - **Innovation**: Early contributor to NFT Worlds projects and blockchain-based virtual environments
 
 ## Website Features

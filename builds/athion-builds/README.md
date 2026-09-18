@@ -1,6 +1,6 @@
 # Athion Server Builds
 
-This folder contains builds created for or featured on the Athion server (play.athion.net), where lakeshore5 has been a staff member since 2017.
+This folder contains builds created for or featured on the Athion server (play.athion.net), where lakeshore5 has been a staff member since 2018.
 
 ## About Athion
 - Prestigious Minecraft building server
